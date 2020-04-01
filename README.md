@@ -1,5 +1,8 @@
 # tabler-icons-react
 
+[![npm version](https://img.shields.io/npm/v/tabler-icons-react.svg)](https://www.npmjs.com/package/tabler-icons-react)
+[![npm downloads](https://img.shields.io/npm/dm/tabler-icons-react.svg)](https://www.npmjs.com/package/tabler-icons-react)
+
 A library of React components for [Tabler Icons](https://github.com/tabler/tabler-icons) — a set of over free 400 open-sourced MIT-licensed icons. 
 
 ## Usage
