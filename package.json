@@ -6,7 +6,8 @@
   "module": "./dist/index.js",
   "sideEffects": false,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node ./scripts/generate.js"
   },
   "files": [
     "dist"
