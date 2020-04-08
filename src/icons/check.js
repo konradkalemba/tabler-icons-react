@@ -20,7 +20,7 @@ export default function Check({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <polyline points='20 7 10 17 5 12' />
+      <path d='M5 12l5 5l10 -10' />
     </svg>
   );
 }

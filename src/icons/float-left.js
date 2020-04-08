@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function FileText({
+export default function FloatLeft({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function FileText({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-file-text'
+      className='icon icon-tabler icon-tabler-float-left'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,11 +20,11 @@ export default function FileText({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <polyline points='14 3 14 8 19 8' />
-      <path d='M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z' />
-      <line x1='9' y1='9' x2='10' y2='9' />
-      <line x1='9' y1='13' x2='15' y2='13' />
-      <line x1='9' y1='17' x2='15' y2='17' />
+      <rect width='6' height='6' x='4' y='5' rx='1' />
+      <line x1='14' y1='7' x2='20' y2='7' />
+      <line x1='14' y1='11' x2='20' y2='11' />
+      <line x1='4' y1='15' x2='20' y2='15' />
+      <line x1='4' y1='19' x2='20' y2='19' />
     </svg>
   );
 }

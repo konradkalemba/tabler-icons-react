@@ -20,7 +20,7 @@ export default function Rotate({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <path d='M20 11a8.1 8.1 0 1 0 -.5 4m.5 5v-5h-5' />
+      <path d='M19.95 11a8 8 0 1 0 -.5 4m.5 5v-5h-5' />
     </svg>
   );
 }

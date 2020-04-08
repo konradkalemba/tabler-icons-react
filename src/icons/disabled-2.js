@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function FileText({
+export default function Disabled2({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function FileText({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-file-text'
+      className='icon icon-tabler icon-tabler-disabled-2'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,11 +20,9 @@ export default function FileText({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <polyline points='14 3 14 8 19 8' />
-      <path d='M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z' />
-      <line x1='9' y1='9' x2='10' y2='9' />
-      <line x1='9' y1='13' x2='15' y2='13' />
-      <line x1='9' y1='17' x2='15' y2='17' />
+      <circle cx='17' cy='6' r='2' />
+      <path d='M9 11a4.97 4.97 0 1 0 3.95 7.95' />
+      <path d='M19 20l-4 -5h-4l3 -5l-4 -3l-4 1' />
     </svg>
   );
 }
