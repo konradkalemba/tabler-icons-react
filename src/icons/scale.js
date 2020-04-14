@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function World({
+export default function Scale({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function World({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-world'
+      className='icon icon-tabler icon-tabler-scale'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,11 +20,11 @@ export default function World({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <circle cx='12' cy='12' r='9' />
-      <line x1='3.6' y1='9' x2='20.4' y2='9' />
-      <line x1='3.6' y1='15' x2='20.4' y2='15' />
-      <path d='M11.5 3a17 17 0 0 0 0 18' />
-      <path d='M12.5 3a17 17 0 0 1 0 18' />
+      <line x1='12' y1='3' x2='12' y2='21' />
+      <line x1='9' y1='21' x2='15' y2='21' />
+      <polyline points='3 6 6 7 12 5 18 7 21 6' />
+      <path d='M6 7l-3 9a5 5 0 0 0 6 0l-3 -9' />
+      <path d='M18 7l-3 9a5 5 0 0 0 6 0l-3 -9' />
     </svg>
   );
 }

@@ -20,8 +20,8 @@ export default function Underline({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <line x1='7' y1='19' x2='17' y2='19' />
-      <path d='M8 5v6a4 4 0 0 0 8 0v-6' />
+      <line x1='7' y1='20' x2='17' y2='20' />
+      <path d='M7 5v6a5 5 0 0 0 10 0v-6' />
     </svg>
   );
 }
