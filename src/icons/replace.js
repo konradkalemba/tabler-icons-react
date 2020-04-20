@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Click({
+export default function Replace({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Click({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-click'
+      className='icon icon-tabler icon-tabler-replace'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,12 +20,10 @@ export default function Click({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <line x1='3' y1='12' x2='6' y2='12' />
-      <line x1='12' y1='3' x2='12' y2='6' />
-      <line x1='7.8' y1='7.8' x2='5.6' y2='5.6' />
-      <line x1='16.2' y1='7.8' x2='18.4' y2='5.6' />
-      <line x1='7.8' y1='16.2' x2='5.6' y2='18.4' />
-      <path d='M12 12l9 3l-4 2l-2 4l-3 -9' />
+      <rect x='3' y='3' width='6' height='6' rx='1' />
+      <rect x='15' y='15' width='6' height='6' rx='1' />
+      <path d='M21 11v-3a2 2 0 0 0 -2 -2h-6l3 3m0 -6l-3 3' />
+      <path d='M3 13v3a2 2 0 0 0 2 2h6l-3 -3m0 6l3 -3' />
     </svg>
   );
 }

@@ -20,8 +20,8 @@ export default function Rotate2({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <path d='M12 4a8 8 0 0 0 -3 15.45m0 -4.45v5h-5' />
-      <path d='M13 19.95a8 8 0 0 0 2 -15.35' stroke-dasharray='.001 4' />
+      <path d='M15 4.55a8 8 0 0 0 -6 14.9m0 -4.45v5h-5' />
+      <path d='M13 19.95a8 8 0 0 0 5.3 -12.8' stroke-dasharray='.001 4.13' />
     </svg>
   );
 }

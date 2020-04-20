@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Click({
+export default function Fingerprint({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Click({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-click'
+      className='icon icon-tabler icon-tabler-fingerprint'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,12 +20,11 @@ export default function Click({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <line x1='3' y1='12' x2='6' y2='12' />
-      <line x1='12' y1='3' x2='12' y2='6' />
-      <line x1='7.8' y1='7.8' x2='5.6' y2='5.6' />
-      <line x1='16.2' y1='7.8' x2='18.4' y2='5.6' />
-      <line x1='7.8' y1='16.2' x2='5.6' y2='18.4' />
-      <path d='M12 12l9 3l-4 2l-2 4l-3 -9' />
+      <path d='M18.9 7a8 8 0 0 1 1.1 5v1a6 6 0 0 0 .8 3' />
+      <path d='M8 11a4 4 0 0 1 8 0v1a10 10 0 0 0 2 6' />
+      <path d='M12 11v2a14 14 0 0 0 2.5 8' />
+      <path d='M8 15a18 18 0 0 0 1.8 6' />
+      <path d='M4.9 19a22 22 0 0 1 -.9 -7v-1a8 8 0 0 1 12 -6.95' />
     </svg>
   );
 }
