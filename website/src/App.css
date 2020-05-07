@@ -1,0 +1,22 @@
+.lead {
+  margin: 200px 0 !important;
+  font-weight: 300;
+  font-size: 42px !important;
+}
+
+.icon-preview {
+  width: 100%;
+  text-align: center;
+  border: 2px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+  transition: border-color 0.15s ease-in-out;
+}
+
+.icon-preview:hover,
+.icon-preview.active {
+  border-color: #467fcf;
+}
