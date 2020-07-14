@@ -21,7 +21,7 @@ export default function User({
     >
       <path stroke='none' d='M0 0h24v24H0z' />
       <circle cx='12' cy='7' r='4' />
-      <path d='M5.5 21v-2a4 4 0 0 1 4 -4h5a4 4 0 0 1 4 4v2' />
+      <path d='M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2' />
     </svg>
   );
 }
