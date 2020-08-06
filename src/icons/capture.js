@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function AlignJustified({
+export default function Capture({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function AlignJustified({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-align-justified'
+      className='icon icon-tabler icon-tabler-capture'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,11 @@ export default function AlignJustified({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <line x1='4' y1='6' x2='20' y2='6' />
-      <line x1='4' y1='12' x2='20' y2='12' />
-      <line x1='4' y1='18' x2='16' y2='18' />
+      <path d='M4 8v-2a2 2 0 0 1 2 -2h2' />
+      <path d='M4 16v2a2 2 0 0 0 2 2h2' />
+      <path d='M16 4h2a2 2 0 0 1 2 2v2' />
+      <path d='M16 20h2a2 2 0 0 0 2 -2v-2' />
+      <circle cx='12' cy='12' r='3' />
     </svg>
   );
 }

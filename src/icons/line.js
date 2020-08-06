@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function FloppyDisk({
+export default function Line({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function FloppyDisk({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-floppy-disk'
+      className='icon icon-tabler icon-tabler-line'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,9 @@ export default function FloppyDisk({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <path d='M18 20h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9l5 5v9a2 2 0 0 1 -2 2' />
-      <circle cx='12' cy='13' r='2' />
-      <polyline points='4 8 10 8 10 4' />
+      <circle cx='6' cy='18' r='2' />
+      <circle cx='18' cy='6' r='2' />
+      <line x1='7.5' y1='16.5' x2='16.5' y2='7.5' />
     </svg>
   );
 }

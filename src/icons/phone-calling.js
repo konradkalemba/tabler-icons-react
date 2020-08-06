@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function AlignJustified({
+export default function PhoneCalling({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function AlignJustified({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-align-justified'
+      className='icon icon-tabler icon-tabler-phone-calling'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,10 @@ export default function AlignJustified({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <line x1='4' y1='6' x2='20' y2='6' />
-      <line x1='4' y1='12' x2='20' y2='12' />
-      <line x1='4' y1='18' x2='16' y2='18' />
+      <path d='M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2' />
+      <line x1='15' y1='7' x2='15' y2='7.01' />
+      <line x1='18' y1='7' x2='18' y2='7.01' />
+      <line x1='21' y1='7' x2='21' y2='7.01' />
     </svg>
   );
 }

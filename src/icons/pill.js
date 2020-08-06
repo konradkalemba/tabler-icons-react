@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function AlignJustified({
+export default function Pill({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function AlignJustified({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-align-justified'
+      className='icon icon-tabler icon-tabler-pill'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,8 @@ export default function AlignJustified({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <line x1='4' y1='6' x2='20' y2='6' />
-      <line x1='4' y1='12' x2='20' y2='12' />
-      <line x1='4' y1='18' x2='16' y2='18' />
+      <path d='M4.5 12.5l8 -8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1 -7 -7' />
+      <path d='M8.5 8.5l7 7' />
     </svg>
   );
 }

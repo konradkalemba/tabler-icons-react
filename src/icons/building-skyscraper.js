@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function BuildingSkyscrappers({
+export default function BuildingSkyscraper({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function BuildingSkyscrappers({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-building-skyscrappers'
+      className='icon icon-tabler icon-tabler-building-skyscraper'
       width={size}
       height={size}
       viewBox='0 0 24 24'
