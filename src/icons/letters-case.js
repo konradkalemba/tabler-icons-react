@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function LetterCase({
+export default function LettersCase({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function LetterCase({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-letter-case'
+      className='icon icon-tabler icon-tabler-letters-case'
       width={size}
       height={size}
       viewBox='0 0 24 24'
