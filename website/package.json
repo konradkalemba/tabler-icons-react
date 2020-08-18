@@ -10,7 +10,7 @@
     "react": "^16.13.1",
     "react-color": "^2.18.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.4.3",
     "react-virtualized-auto-sizer": "^1.0.2",
     "react-window": "^1.8.5",
     "tabler-icons-react": "^1.6.0",
