@@ -1,9 +1,10 @@
 {
   "name": "tabler-icons-react",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "Tabler Icons for React",
   "main": "./dist/bundle.js",
   "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "sideEffects": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
