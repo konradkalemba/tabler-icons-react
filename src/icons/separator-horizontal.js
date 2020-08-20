@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Hexagon({
+export default function SeparatorHorizontal({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Hexagon({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-hexagon'
+      className='icon icon-tabler icon-tabler-separator-horizontal'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,9 @@ export default function Hexagon({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <path d='M12.971 3.54l6 3.333A2 2 0 0 1 20 8.62v6.536a2 2 0 0 1 -1.029 1.748l-6 3.333a2 2 0 0 1 -1.942 0l-6-3.333A2 2 0 0 1 4 15.157V8.62a2 2 0 0 1 1.029 -1.748l6-3.333a2 2 0 0 1 1.942 0z' />
+      <line x1='4' y1='12' x2='20' y2='12' />
+      <polyline points='8 8 12 4 16 8' />
+      <polyline points='16 16 12 20 8 16' />
     </svg>
   );
 }

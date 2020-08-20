@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Test({
+export default function SteeringWheel({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Test({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-test'
+      className='icon icon-tabler icon-tabler-steering-wheel'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,11 @@ export default function Test({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <path d='M3 9h18M3 9v6m0-6V5a2 2 0 0 1 2 -2h4m12 6v6m0-6V5a2 2 0 0 0 -2 -2h-4M3 15v4a2 2 0 0 0 2 2h4m-6-6h18m0 0v4a2 2 0 0 1 -2 2h-4M9 3v18M9 3h6M9 21h6m0-18v18' />
+      <circle cx='12' cy='12' r='9' />
+      <circle cx='12' cy='12' r='2' />
+      <line x1='12' y1='14' x2='12' y2='21' />
+      <line x1='10' y1='12' x2='3.25' y2='10' />
+      <line x1='14' y1='12' x2='20.75' y2='10' />
     </svg>
   );
 }

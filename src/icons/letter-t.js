@@ -20,8 +20,8 @@ export default function LetterT({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <path d='M6 4h12' />
-      <path d='M12 4v16' />
+      <line x1='6' y1='4' x2='18' y2='4' />
+      <line x1='12' y1='4' x2='12' y2='20' />
     </svg>
   );
 }

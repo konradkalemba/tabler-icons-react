@@ -20,7 +20,7 @@ export default function LetterI({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <path d='M12 4v16' />
+      <line x1='12' y1='4' x2='12' y2='20' />
     </svg>
   );
 }

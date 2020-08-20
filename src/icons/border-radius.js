@@ -20,8 +20,18 @@ export default function BorderRadius({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <path d='M16.01 4h4v16h-16v-4.01' stroke-dasharray='.001 4' />
       <path d='M4 12v-4a4 4 0 0 1 4 -4h4' />
+      <line x1='16' y1='4' x2='16' y2='4.01' />
+      <line x1='20' y1='4' x2='20' y2='4.01' />
+      <line x1='20' y1='8' x2='20' y2='8.01' />
+      <line x1='20' y1='12' x2='20' y2='12.01' />
+      <line x1='4' y1='16' x2='4' y2='16.01' />
+      <line x1='20' y1='16' x2='20' y2='16.01' />
+      <line x1='4' y1='20' x2='4' y2='20.01' />
+      <line x1='8' y1='20' x2='8' y2='20.01' />
+      <line x1='12' y1='20' x2='12' y2='20.01' />
+      <line x1='16' y1='20' x2='16' y2='20.01' />
+      <line x1='20' y1='20' x2='20' y2='20.01' />
     </svg>
   );
 }

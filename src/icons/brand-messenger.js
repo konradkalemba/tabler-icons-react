@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Hexagon({
+export default function BrandMessenger({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Hexagon({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-hexagon'
+      className='icon icon-tabler icon-tabler-brand-messenger'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,8 @@ export default function Hexagon({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <path d='M12.971 3.54l6 3.333A2 2 0 0 1 20 8.62v6.536a2 2 0 0 1 -1.029 1.748l-6 3.333a2 2 0 0 1 -1.942 0l-6-3.333A2 2 0 0 1 4 15.157V8.62a2 2 0 0 1 1.029 -1.748l6-3.333a2 2 0 0 1 1.942 0z' />
+      <path d='M3 20l1.3 -3.9a9 8 0 1 1 3.4 2.9l-4.7 1' />
+      <path d='M8 13l3 -2l2 2l3 -2' />
     </svg>
   );
 }

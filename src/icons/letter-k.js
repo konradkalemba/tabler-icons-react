@@ -20,9 +20,9 @@ export default function LetterK({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <path d='M7 4v16' />
+      <line x1='7' y1='4' x2='7' y2='20' />
       <path d='M7 12h2l8 -8' />
-      <path d='M9 12l8 8' />
+      <line x1='9' y1='12' x2='17' y2='20' />
     </svg>
   );
 }

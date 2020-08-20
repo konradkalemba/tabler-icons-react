@@ -21,7 +21,7 @@ export default function LetterF({
     >
       <path stroke='none' d='M0 0h24v24H0z' />
       <path d='M17 4h-10v16' />
-      <path d='M7 12h8' />
+      <line x1='7' y1='12' x2='15' y2='12' />
     </svg>
   );
 }

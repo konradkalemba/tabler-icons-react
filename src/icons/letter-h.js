@@ -20,9 +20,9 @@ export default function LetterH({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <path d='M17 4v16' />
-      <path d='M7 12h10' />
-      <path d='M7 4v16' />
+      <line x1='17' y1='4' x2='17' y2='20' />
+      <line x1='7' y1='12' x2='17' y2='12' />
+      <line x1='7' y1='4' x2='7' y2='20' />
     </svg>
   );
 }
