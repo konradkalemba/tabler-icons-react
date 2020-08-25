@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Swiming({
+export default function BrandPinterest({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Swiming({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-swiming'
+      className='icon icon-tabler icon-tabler-brand-pinterest'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,9 @@ export default function Swiming({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <circle cx='16' cy='9' r='1' />
-      <path d='M6 11l4 -2l3.5 3l-1.5 2' />
-      <path d='M3 16.75a2.4 2.4 0 0 0 1 .25a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 1 -.25' />
+      <line x1='8' y1='20' x2='12' y2='11' />
+      <path d='M10.7 14C11.137 15.263 12.13 16 13.25 16c2.071 0 3.75-1.554 3.75-4a5 5 0 1 0 -9.7 1.7' />
+      <circle cx='12' cy='12' r='9' />
     </svg>
   );
 }
