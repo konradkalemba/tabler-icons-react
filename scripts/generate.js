@@ -34,6 +34,14 @@ function findIcons() {
     .filter((file) => file.endsWith('.svg'));
 }
 
+function createComponentName(originalName) {
+  return (
+    pascalCase(originalName)
+      // A digit at the beginning of component name is not allowed
+      .replace('2fa', 'TwoFA')
+  );
+}
+
 function removeOldComponents() {
   const components = fs
     .readdirSync(DESTINATION_ICONS_PATH)
@@ -55,7 +63,7 @@ async function generateNewComponents() {
       'utf8'
     );
 
-    const componentName = pascalCase(originalName);
+    const componentName = createComponentName(originalName);
 
     exports.push(
       `export { default as ${componentName} } from './icons/${originalName}.js';`
@@ -82,9 +90,12 @@ async function generateNewComponents() {
 
 async function createTypesFile() {
   const prettierOptions = (await prettier.resolveConfig(__dirname)) || {};
-  const exports = findIcons().map(
-    (file) => `export const ${pascalCase(file.split('.')[0])}: Icon;`
-  );
+  const exports = findIcons().map((file) => {
+    const [originalName] = file.split('.');
+    const componentName = createComponentName(originalName);
+
+    return `export const ${componentName}: Icon;`;
+  });
 
   fs.writeFileSync(
     path.resolve(__dirname, '../src/index.d.ts'),
