@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Heart({
+export default function Trident({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Heart({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-heart'
+      className='icon icon-tabler icon-tabler-trident'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,8 @@ export default function Heart({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <path d='M19.5 13.572 l -7.5 7.428 l -7.5 -7.428 m 0 0 a5 5 0 1 1 7.5 -6.566 a5 5 0 1 1 7.5 6.572' />
+      <path d='M3 6l2 -2v3a7 7 0 0 0 14 0v-3l2 2' />
+      <path d='M12 21v-18l-2 2m4 0l-2 -2' />
     </svg>
   );
 }

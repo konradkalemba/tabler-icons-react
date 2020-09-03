@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Heart({
+export default function Peace({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Heart({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-heart'
+      className='icon icon-tabler icon-tabler-peace'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,10 @@ export default function Heart({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <path d='M19.5 13.572 l -7.5 7.428 l -7.5 -7.428 m 0 0 a5 5 0 1 1 7.5 -6.566 a5 5 0 1 1 7.5 6.572' />
+      <circle cx='12' cy='12' r='9' />
+      <line x1='12' y1='3' x2='12' y2='21' />
+      <line x1='12' y1='12' x2='18.3' y2='18.3' />
+      <line x1='12' y1='12' x2='5.7' y2='18.3' />
     </svg>
   );
 }

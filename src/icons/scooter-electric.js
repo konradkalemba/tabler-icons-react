@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ElectricScooter({
+export default function ScooterElectric({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function ElectricScooter({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-electric-scooter'
+      className='icon icon-tabler icon-tabler-scooter-electric'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -23,6 +23,7 @@ export default function ElectricScooter({
       <circle cx='18' cy='17' r='2' />
       <circle cx='6' cy='17' r='2' />
       <path d='M8 17h5a6 6 0 0 1 5 -5v-5a2 2 0 0 0 -2 -2h-1' />
+      <path d='M10 4l-2 4h3l-2 4' />
     </svg>
   );
 }

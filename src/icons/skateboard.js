@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Heart({
+export default function Skateboard({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Heart({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-heart'
+      className='icon icon-tabler icon-tabler-skateboard'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,9 @@ export default function Heart({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <path d='M19.5 13.572 l -7.5 7.428 l -7.5 -7.428 m 0 0 a5 5 0 1 1 7.5 -6.566 a5 5 0 1 1 7.5 6.572' />
+      <circle cx='7' cy='15' r='2' />
+      <circle cx='17' cy='15' r='2' />
+      <path d='M3 9a2 1 0 0 0 2 1h14a2 1 0 0 0 2 -1' />
     </svg>
   );
 }

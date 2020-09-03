@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Heart({
+export default function Radioactive({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Heart({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-heart'
+      className='icon icon-tabler icon-tabler-radioactive'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,9 @@ export default function Heart({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <path d='M19.5 13.572 l -7.5 7.428 l -7.5 -7.428 m 0 0 a5 5 0 1 1 7.5 -6.566 a5 5 0 1 1 7.5 6.572' />
+      <path d='M13.5 14.6 l 3 5.19 a9 9 0 0 0 4.5 -7.79 h -6 a3 3 0 0 1 -1.5 2.6' />
+      <path d='M13.5 9.4 l 3 -5.19 a9 9 0 0 0 -9 0 l 3 5.19 a3 3 0 0 1 3 0' />
+      <path d='M10.5 14.6 l -3 5.19 a9 9 0 0 1 -4.5 -7.79 h6 a3 3 0 0 0 1.5 2.6' />
     </svg>
   );
 }
