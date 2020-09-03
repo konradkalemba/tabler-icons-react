@@ -46,7 +46,7 @@
     "prettier": "^2.0.2",
     "rollup": "^2.3.2",
     "rollup-plugin-babel": "^4.4.0",
-    "tabler-icons": "^1.17.0"
+    "tabler-icons": "^1.18.0"
   },
   "husky": {
     "hooks": {
