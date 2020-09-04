@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Octagon({
+export default function Tournament({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Octagon({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-octagon'
+      className='icon icon-tabler icon-tabler-tournament'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,10 @@ export default function Octagon({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <path d='M8.7 3 h 6.6 c0.3 0 .5 .1 .7 .3 l4.7 4.7 c0.2 .2 .3 .4 .3 .7 v6.6 c0 .3 -.1 .5 -.3 .7 l-4.7 4.7 c-0.2 .2 -.4 .3 -.7 .3h-6.6 c-0.3 0 -.5 -.1 -.7 -.3 l-4.7 -4.7 c-0.2 -.2 -.3 -.4 -.3 -.7 v-6.6 c0 -.3 .1 -.5 .3 -.7l4.7 -4.7 c0.2 -.2 .4 -.3 .7 -.3z' />
+      <path d='M5 6h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-3' />
+      <path d='M5 14h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-3' />
+      <path d='M9 8h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4' />
+      <line x1='14' y1='12' x2='19' y2='12' />
     </svg>
   );
 }

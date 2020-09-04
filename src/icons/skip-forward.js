@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Activity({
+export default function SkipForward({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Activity({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-activity'
+      className='icon icon-tabler icon-tabler-skip-forward'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,8 @@ export default function Activity({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <polyline points='21 12 17 12 14 20 10 4 7 12 3 12' />
+      <path d='M4 6v12 a2 2 0 0 0 2.75 1.84 l8.25 -6.1 a2 2 0 0 0 0 -3.5 l-8.25 -6.1 a2 2 0 0 0 -2.75 1.75' />
+      <line x1='20' y1='4' x2='20' y2='20' />
     </svg>
   );
 }

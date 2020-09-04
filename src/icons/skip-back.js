@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Octagon({
+export default function SkipBack({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Octagon({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-octagon'
+      className='icon icon-tabler icon-tabler-skip-back'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,8 @@ export default function Octagon({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' />
-      <path d='M8.7 3 h 6.6 c0.3 0 .5 .1 .7 .3 l4.7 4.7 c0.2 .2 .3 .4 .3 .7 v6.6 c0 .3 -.1 .5 -.3 .7 l-4.7 4.7 c-0.2 .2 -.4 .3 -.7 .3h-6.6 c-0.3 0 -.5 -.1 -.7 -.3 l-4.7 -4.7 c-0.2 -.2 -.3 -.4 -.3 -.7 v-6.6 c0 -.3 .1 -.5 .3 -.7l4.7 -4.7 c0.2 -.2 .4 -.3 .7 -.3z' />
+      <path d='M20 18v-12a2 2 0 0 0 -2.75 -1.84l-8.25 6.1a2 2 0 0 0 0 3.5l8.25 6.1a2 2 0 0 0 2.75 -1.75' />
+      <path d='M4 20v-16' />
     </svg>
   );
 }
