@@ -19,7 +19,7 @@ export default function DeviceGamepad({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <rect x='2' y='6' width='20' height='12' rx='2' />
       <path d='M6 12h4m-2 -2v4' />
       <line x1='15' y1='11' x2='15' y2='11.01' />

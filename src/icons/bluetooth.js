@@ -19,7 +19,7 @@ export default function Bluetooth({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <polyline points='6 8 18 16 12 20 12 4 18 8 6 16' />
     </svg>
   );

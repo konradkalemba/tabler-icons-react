@@ -19,7 +19,7 @@ export default function BuildingChurch({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='3' y1='21' x2='21' y2='21' />
       <path d='M10 21v-4a2 2 0 0 1 4 0v4' />
       <line x1='10' y1='5' x2='14' y2='5' />

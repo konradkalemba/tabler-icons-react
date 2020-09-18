@@ -19,7 +19,7 @@ export default function WaveSawTool({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M3 12 h5 l4 8 v-16 l4 8h5' />
     </svg>
   );

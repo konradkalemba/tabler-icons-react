@@ -19,7 +19,7 @@ export default function Router({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <rect x='3' y='13' width='18' height='8' rx='2' />
       <line x1='17' y1='17' x2='17' y2='17.01' />
       <line x1='13' y1='17' x2='13' y2='17.01' />

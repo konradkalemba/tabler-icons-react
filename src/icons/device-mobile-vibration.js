@@ -19,7 +19,7 @@ export default function DeviceMobileVibration({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <g transform='rotate(27 12 12)'>
         <rect x='7' y='4' width='10' height='16' rx='1' />
         <line x1='11' y1='5' x2='13' y2='5' />

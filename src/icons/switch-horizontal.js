@@ -19,7 +19,7 @@ export default function SwitchHorizontal({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <polyline points='16 3 20 7 16 11' />
       <line x1='10' y1='7' x2='20' y2='7' />
       <polyline points='8 13 4 17 8 21' />

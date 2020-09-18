@@ -19,7 +19,7 @@ export default function BrandReddit({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M12 8c2.648 0 5.028 .826 6.675 2.14a2.5 2.5 0 0 1 2.326 4.36 C21 18.09 16.971 21 12 21c-4.875 0-8.845-2.8-8.996-6.294L3 14.5h0a2.5 2.5 0 0 1 2.326 -4.36C6.972 8.827 9.352 8 12 8z' />
       <path d='M12 8l1-5 6 1' />
       <circle cx='19' cy='4' r='1' />

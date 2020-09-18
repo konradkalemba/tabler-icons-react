@@ -19,7 +19,7 @@ export default function BrandGoogleDrive({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M12 10L6 20l-3-5L9 5z' />
       <path d='M9 15h12l-3 5h-12' />
       <path d='M15 15L9 5h6l6 10z' />

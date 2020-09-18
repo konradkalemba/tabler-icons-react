@@ -19,7 +19,7 @@ export default function DotsVertical({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='12' cy='12' r='1' />
       <circle cx='12' cy='19' r='1' />
       <circle cx='12' cy='5' r='1' />

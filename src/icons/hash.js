@@ -19,7 +19,7 @@ export default function Hash({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='5' y1='9' x2='19' y2='9' />
       <line x1='5' y1='15' x2='19' y2='15' />
       <line x1='11' y1='4' x2='7' y2='20' />

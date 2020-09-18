@@ -19,7 +19,7 @@ export default function Trash({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='4' y1='7' x2='20' y2='7' />
       <line x1='10' y1='11' x2='10' y2='17' />
       <line x1='14' y1='11' x2='14' y2='17' />

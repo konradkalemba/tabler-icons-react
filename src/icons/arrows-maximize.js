@@ -19,7 +19,7 @@ export default function ArrowsMaximize({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <polyline points='16 4 20 4 20 8' />
       <line x1='14' y1='10' x2='20' y2='4' />
       <polyline points='8 20 4 20 4 16' />

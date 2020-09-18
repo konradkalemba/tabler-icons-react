@@ -19,7 +19,7 @@ export default function SkipForward({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M4 6v12 a2 2 0 0 0 2.75 1.84 l8.25 -6.1 a2 2 0 0 0 0 -3.5 l-8.25 -6.1 a2 2 0 0 0 -2.75 1.75' />
       <line x1='20' y1='4' x2='20' y2='20' />
     </svg>

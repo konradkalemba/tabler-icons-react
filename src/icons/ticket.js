@@ -19,7 +19,7 @@ export default function Ticket({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='15' y1='5' x2='15' y2='7' />
       <line x1='15' y1='11' x2='15' y2='13' />
       <line x1='15' y1='17' x2='15' y2='19' />

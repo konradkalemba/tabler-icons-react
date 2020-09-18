@@ -19,7 +19,7 @@ export default function Click({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='3' y1='12' x2='6' y2='12' />
       <line x1='12' y1='3' x2='12' y2='6' />
       <line x1='7.8' y1='7.8' x2='5.6' y2='5.6' />

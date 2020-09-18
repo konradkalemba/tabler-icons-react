@@ -19,7 +19,7 @@ export default function Typography({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='4' y1='20' x2='7' y2='20' />
       <line x1='14' y1='20' x2='21' y2='20' />
       <line x1='6.9' y1='15' x2='13.8' y2='15' />

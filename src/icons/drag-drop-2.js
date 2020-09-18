@@ -19,7 +19,7 @@ export default function DragDrop2({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <rect x='8' y='8' width='12' height='12' rx='2' />
       <line x1='4' y1='4' x2='4' y2='4.01' />
       <line x1='8' y1='4' x2='8' y2='4.01' />

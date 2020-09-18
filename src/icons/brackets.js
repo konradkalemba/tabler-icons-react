@@ -19,7 +19,7 @@ export default function Brackets({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M8 4h-3v16h3' />
       <path d='M16 4h3v16h-3' />
     </svg>

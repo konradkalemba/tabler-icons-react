@@ -19,7 +19,7 @@ export default function Lego({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='9.5' y1='11' x2='9.51' y2='11' />
       <line x1='14.5' y1='11' x2='14.51' y2='11' />
       <path d='M9.5 15a3.5 3.5 0 0 0 5 0' />

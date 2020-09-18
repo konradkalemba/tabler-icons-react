@@ -19,7 +19,7 @@ export default function Calculator({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <rect x='4' y='3' width='16' height='18' rx='2' />
       <rect x='8' y='7' width='8' height='3' rx='1' />
       <line x1='8' y1='14' x2='8' y2='14.01' />

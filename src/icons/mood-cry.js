@@ -19,7 +19,7 @@ export default function MoodCry({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='9' y1='10' x2='9.01' y2='10' />
       <line x1='15' y1='10' x2='15.01' y2='10' />
       <path d='M9.5 15.25a3.5 3.5 0 0 1 5 0' />

@@ -19,7 +19,7 @@ export default function Share({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='6' cy='12' r='3' />
       <circle cx='18' cy='6' r='3' />
       <circle cx='18' cy='18' r='3' />

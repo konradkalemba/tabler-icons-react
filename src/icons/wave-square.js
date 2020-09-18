@@ -19,7 +19,7 @@ export default function WaveSquare({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M3 12 h5 v8 h4 v-16 h4 v8 h5' />
     </svg>
   );

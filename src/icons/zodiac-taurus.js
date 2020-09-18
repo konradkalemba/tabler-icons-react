@@ -19,7 +19,7 @@ export default function ZodiacTaurus({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M6 3a6 6 0 0 0 12 0' />
       <circle cx='12' cy='15' r='6' />
     </svg>

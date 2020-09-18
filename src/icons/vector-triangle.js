@@ -19,7 +19,7 @@ export default function VectorTriangle({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <rect x='10' y='4' width='4' height='4' rx='1' />
       <rect x='3' y='17' width='4' height='4' rx='1' />
       <rect x='17' y='17' width='4' height='4' rx='1' />

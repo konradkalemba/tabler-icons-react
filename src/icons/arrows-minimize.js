@@ -19,7 +19,7 @@ export default function ArrowsMinimize({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <polyline points='5 9 9 9 9 5' />
       <line x1='3' y1='3' x2='9' y2='9' />
       <polyline points='5 15 9 15 9 19' />

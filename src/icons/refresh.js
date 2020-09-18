@@ -19,7 +19,7 @@ export default function Refresh({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -5v5h5' />
       <path d='M4 13a8.1 8.1 0 0 0 15.5 2m.5 5v-5h-5' />
     </svg>

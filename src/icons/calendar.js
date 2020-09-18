@@ -19,7 +19,7 @@ export default function Calendar({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <rect x='4' y='5' width='16' height='16' rx='2' />
       <line x1='16' y1='3' x2='16' y2='7' />
       <line x1='8' y1='3' x2='8' y2='7' />

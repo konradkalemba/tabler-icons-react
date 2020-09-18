@@ -19,7 +19,7 @@ export default function Trophy({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='8' y1='21' x2='16' y2='21' />
       <line x1='12' y1='17' x2='12' y2='21' />
       <line x1='7' y1='4' x2='17' y2='4' />

@@ -19,7 +19,7 @@ export default function GripHorizontal({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='5' cy='9' r='1' />
       <circle cx='5' cy='15' r='1' />
       <circle cx='12' cy='9' r='1' />

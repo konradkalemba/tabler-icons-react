@@ -19,7 +19,7 @@ export default function LayoutAlignBottom({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='4' y1='20' x2='20' y2='20' />
       <rect x='9' y='4' width='6' height='12' rx='2' />
     </svg>

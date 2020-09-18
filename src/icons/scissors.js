@@ -19,7 +19,7 @@ export default function Scissors({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='6' cy='7' r='3' />
       <circle cx='6' cy='17' r='3' />
       <line x1='8.6' y1='8.6' x2='19' y2='19' />

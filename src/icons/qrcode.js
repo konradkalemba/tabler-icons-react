@@ -19,7 +19,7 @@ export default function Qrcode({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <rect x='4' y='4' width='6' height='6' rx='1' />
       <line x1='7' y1='17' x2='7' y2='17.01' />
       <rect x='14' y='4' width='6' height='6' rx='1' />

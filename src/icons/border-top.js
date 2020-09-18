@@ -19,7 +19,7 @@ export default function BorderTop({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='4' y1='4' x2='20' y2='4' />
       <line x1='4' y1='8' x2='4' y2='8.01' />
       <line x1='12' y1='8' x2='12' y2='8.01' />

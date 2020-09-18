@@ -19,7 +19,7 @@ export default function LayoutAlignMiddle({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='4' y1='12' x2='9' y2='12' />
       <line x1='15' y1='12' x2='20' y2='12' />
       <rect x='9' y='6' width='6' height='12' rx='2' />

@@ -19,7 +19,7 @@ export default function Forklift({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='5' cy='17' r='2' />
       <circle cx='14' cy='17' r='2' />
       <line x1='7' y1='17' x2='12' y2='17' />

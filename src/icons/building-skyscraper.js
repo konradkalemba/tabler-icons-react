@@ -19,7 +19,7 @@ export default function BuildingSkyscraper({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='3' y1='21' x2='21' y2='21' />
       <path d='M5 21v-14l8 -4v18' />
       <path d='M19 21v-10l-6 -4' />

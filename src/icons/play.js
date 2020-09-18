@@ -19,7 +19,7 @@ export default function Play({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M5 5 v14 a2 2 0 0 0 2.75 1.84 l12.25 -7.1 a2 2 0 0 0 0 -3.5 l-12.25 -7.1 a2 2 0 0 0 -2.75 1.75' />
     </svg>
   );

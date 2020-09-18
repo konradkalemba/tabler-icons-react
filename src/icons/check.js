@@ -19,7 +19,7 @@ export default function Check({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M5 12l5 5l10 -10' />
     </svg>
   );

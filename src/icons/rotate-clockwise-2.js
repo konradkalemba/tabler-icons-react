@@ -19,7 +19,7 @@ export default function RotateClockwise2({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M9 4.55a8 8 0 0 1 6 14.9m0 -4.45v5h5' />
       <line x1='5.63' y1='7.16' x2='5.63' y2='7.17' />
       <line x1='4.06' y1='11' x2='4.06' y2='11.01' />

@@ -19,7 +19,7 @@ export default function Fall({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M11 21l1-5-1-4-3-4h4l3-3' />
       <path d='M6 16l-1-4l3-4' />
       <circle cx='6' cy='5' r='1' />

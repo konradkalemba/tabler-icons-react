@@ -19,7 +19,7 @@ export default function LetterM({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M6 20v-16l6 14l6 -14v16' />
     </svg>
   );

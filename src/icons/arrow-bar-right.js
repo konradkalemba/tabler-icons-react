@@ -19,7 +19,7 @@ export default function ArrowBarRight({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='20' y1='12' x2='10' y2='12' />
       <line x1='20' y1='12' x2='16' y2='16' />
       <line x1='20' y1='12' x2='16' y2='8' />

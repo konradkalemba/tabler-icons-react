@@ -19,7 +19,7 @@ export default function Eye({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='12' cy='12' r='2' />
       <path d='M2 12l1.5 2a11 11 0 0 0 17 0l1.5 -2' />
       <path d='M2 12l1.5 -2a11 11 0 0 1 17 0l1.5 2' />

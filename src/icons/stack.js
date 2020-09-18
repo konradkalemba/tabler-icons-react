@@ -19,7 +19,7 @@ export default function Stack({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <polyline points='12 4 4 8 12 12 20 8 12 4' />
       <polyline points='4 12 12 16 20 12' />
       <polyline points='4 16 12 20 20 16' />

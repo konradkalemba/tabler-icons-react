@@ -19,7 +19,7 @@ export default function FloatLeft({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <rect width='6' height='6' x='4' y='5' rx='1' />
       <line x1='14' y1='7' x2='20' y2='7' />
       <line x1='14' y1='11' x2='20' y2='11' />

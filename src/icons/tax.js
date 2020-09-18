@@ -19,7 +19,7 @@ export default function Tax({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='9' y1='14' x2='15' y2='8' />
       <circle cx='9.5' cy='8.5' r='.5' fill='currentColor' />
       <circle cx='14.5' cy='13.5' r='.5' fill='currentColor' />

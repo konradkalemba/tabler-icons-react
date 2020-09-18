@@ -19,7 +19,7 @@ export default function Music({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='6' cy='17' r='3' />
       <circle cx='16' cy='17' r='3' />
       <polyline points='9 17 9 4 19 4 19 17' />

@@ -19,7 +19,7 @@ export default function H1({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='3' y1='5' x2='3' y2='19' />
       <line x1='3' y1='12' x2='12' y2='12' />
       <line x1='12' y1='5' x2='12' y2='19' />

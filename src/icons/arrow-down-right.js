@@ -19,7 +19,7 @@ export default function ArrowDownRight({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='7' y1='7' x2='17' y2='17' />
       <polyline points='17 8 17 17 8 17' />
     </svg>

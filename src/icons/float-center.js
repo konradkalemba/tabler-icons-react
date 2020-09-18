@@ -19,7 +19,7 @@ export default function FloatCenter({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <rect width='6' height='6' x='9' y='5' rx='1' />
       <line x1='4' y1='7' x2='5' y2='7' />
       <line x1='4' y1='11' x2='5' y2='11' />

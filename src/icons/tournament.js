@@ -19,7 +19,7 @@ export default function Tournament({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M5 6h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-3' />
       <path d='M5 14h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-3' />
       <path d='M9 8h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4' />

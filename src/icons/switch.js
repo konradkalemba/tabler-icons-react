@@ -19,7 +19,7 @@ export default function Switch({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <polyline points='15 4 19 4 19 8' />
       <line x1='14.75' y1='9.25' x2='19' y2='4' />
       <line x1='5' y1='19' x2='9' y2='15' />

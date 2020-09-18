@@ -19,7 +19,7 @@ export default function Caravan({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='11' cy='17' r='2' />
       <path d='M21 17h-8' />
       <path d='M9 17h-5a1 1 0 0 1 -1 -1v-9a2 2 0 0 1 2 -2h10l4 4v8' />

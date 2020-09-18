@@ -19,7 +19,7 @@ export default function BrandCodepen({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M3 15l9 6l9 -6l-9 -6l-9 6' />
       <path d='M3 9l9 6l9 -6l-9 -6l-9 6' />
       <line x1='3' y1='9' x2='3' y2='15' />

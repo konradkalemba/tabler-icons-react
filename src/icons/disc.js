@@ -19,7 +19,7 @@ export default function Disc({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='12' cy='12' r='9' />
       <circle cx='12' cy='12' r='1' />
       <path d='M7 12a5 5 0 0 1 5 -5' />

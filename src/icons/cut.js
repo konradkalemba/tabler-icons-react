@@ -19,7 +19,7 @@ export default function Cut({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='7' cy='17' r='3' />
       <circle cx='17' cy='17' r='3' />
       <line x1='9.15' y1='14.85' x2='18' y2='4' />

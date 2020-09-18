@@ -19,7 +19,7 @@ export default function ChevronsDown({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <polyline points='7 7 12 12 17 7' />
       <polyline points='7 13 12 18 17 13' />
     </svg>

@@ -19,7 +19,7 @@ export default function Stairs({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M4 18h4v-4h4v-4h4v-4h4' />
     </svg>
   );

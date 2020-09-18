@@ -19,7 +19,7 @@ export default function GitCompare({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='6' cy='6' r='2' />
       <circle cx='18' cy='18' r='2' />
       <path d='M11 6h5a2 2 0 0 1 2 2v8' />

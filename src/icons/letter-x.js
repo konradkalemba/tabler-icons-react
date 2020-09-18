@@ -19,7 +19,7 @@ export default function LetterX({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='7' y1='4' x2='17' y2='20' />
       <line x1='17' y1='4' x2='7' y2='20' />
     </svg>

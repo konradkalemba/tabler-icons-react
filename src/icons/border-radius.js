@@ -19,7 +19,7 @@ export default function BorderRadius({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M4 12v-4a4 4 0 0 1 4 -4h4' />
       <line x1='16' y1='4' x2='16' y2='4.01' />
       <line x1='20' y1='4' x2='20' y2='4.01' />

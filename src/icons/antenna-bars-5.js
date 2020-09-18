@@ -19,7 +19,7 @@ export default function AntennaBars5({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M6 18v-3' />
       <path d='M10 18v-6' />
       <path d='M14 18v-9' />

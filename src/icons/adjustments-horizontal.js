@@ -19,7 +19,7 @@ export default function AdjustmentsHorizontal({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='14' cy='6' r='2' />
       <line x1='4' y1='6' x2='12' y2='6' />
       <line x1='16' y1='6' x2='20' y2='6' />

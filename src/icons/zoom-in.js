@@ -19,7 +19,7 @@ export default function ZoomIn({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='10' cy='10' r='7' />
       <line x1='7' y1='10' x2='13' y2='10' />
       <line x1='10' y1='7' x2='10' y2='13' />

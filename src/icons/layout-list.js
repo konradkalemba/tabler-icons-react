@@ -19,7 +19,7 @@ export default function LayoutList({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <rect x='4' y='4' width='16' height='6' rx='2' />
       <rect x='4' y='14' width='16' height='6' rx='2' />
     </svg>

@@ -19,7 +19,7 @@ export default function Loader({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='12' y1='6' x2='12' y2='3' />
       <line x1='16.25' y1='7.75' x2='18.4' y2='5.6' />
       <line x1='18' y1='12' x2='21' y2='12' />

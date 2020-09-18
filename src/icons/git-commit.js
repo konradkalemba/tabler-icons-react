@@ -19,7 +19,7 @@ export default function GitCommit({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='12' cy='12' r='3' />
       <line x1='12' y1='3' x2='12' y2='9' />
       <line x1='12' y1='15' x2='12' y2='21' />

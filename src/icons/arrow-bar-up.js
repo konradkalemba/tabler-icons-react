@@ -19,7 +19,7 @@ export default function ArrowBarUp({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='12' y1='4' x2='12' y2='14' />
       <line x1='12' y1='4' x2='16' y2='8' />
       <line x1='12' y1='4' x2='8' y2='8' />

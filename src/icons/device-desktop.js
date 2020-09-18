@@ -19,7 +19,7 @@ export default function DeviceDesktop({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <rect x='3' y='4' width='18' height='12' rx='1' />
       <line x1='7' y1='20' x2='17' y2='20' />
       <line x1='9' y1='16' x2='9' y2='20' />

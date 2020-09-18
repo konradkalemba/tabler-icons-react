@@ -19,7 +19,7 @@ export default function Alarm({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='12' cy='13' r='7' />
       <polyline points='12 10 12 13 14 13' />
       <line x1='7' y1='4' x2='4.25' y2='6' />

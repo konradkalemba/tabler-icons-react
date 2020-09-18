@@ -19,7 +19,7 @@ export default function Building({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='3' y1='21' x2='21' y2='21' />
       <line x1='9' y1='8' x2='10' y2='8' />
       <line x1='9' y1='12' x2='10' y2='12' />

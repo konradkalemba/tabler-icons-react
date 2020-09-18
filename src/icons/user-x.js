@@ -19,7 +19,7 @@ export default function UserX({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='9' cy='7' r='4' />
       <path d='M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2' />
       <path d='M17 9l4 4m0 -4l-4 4' />

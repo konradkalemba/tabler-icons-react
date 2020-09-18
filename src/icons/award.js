@@ -19,7 +19,7 @@ export default function Award({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='12' cy='9' r='6' />
       <polyline
         points='9 14.2 9 21 12 19 15 21 15 14.2'

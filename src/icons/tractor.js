@@ -19,7 +19,7 @@ export default function Tractor({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='7' cy='15' r='4' />
       <line x1='7' y1='15' x2='7' y2='15.01' />
       <circle cx='19' cy='17' r='2' />

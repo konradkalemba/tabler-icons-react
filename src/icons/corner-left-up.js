@@ -19,7 +19,7 @@ export default function CornerLeftUp({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M18 18h-6a3 3 0 0 1 -3 -3v-10l-5 5m10 0l-5 -5' />
     </svg>
   );

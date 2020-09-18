@@ -19,7 +19,7 @@ export default function Bandage({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='14' y1='12' x2='14' y2='12.01' />
       <line x1='10' y1='12' x2='10' y2='12.01' />
       <line x1='12' y1='10' x2='12' y2='10.01' />

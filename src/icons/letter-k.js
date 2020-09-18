@@ -19,7 +19,7 @@ export default function LetterK({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='7' y1='4' x2='7' y2='20' />
       <path d='M7 12h2l8 -8' />
       <line x1='9' y1='12' x2='17' y2='20' />

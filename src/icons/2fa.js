@@ -19,7 +19,7 @@ export default function TwoFA({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M7 16h-4 l3.47 -4.66 a2 2 0 1 0 -3.47 -1.54' />
       <path d='M10 16v-8h4' />
       <line x1='10' y1='12' x2='13' y2='12' />

@@ -19,7 +19,7 @@ export default function BrandGoogle({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M17.788 5.108A9 9 0 1 0 21 12h-8' />
     </svg>
   );

@@ -19,7 +19,7 @@ export default function SwitchVertical({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <polyline points='3 8 7 4 11 8' />
       <line x1='7' y1='4' x2='7' y2='13' />
       <polyline points='13 16 17 20 21 16' />

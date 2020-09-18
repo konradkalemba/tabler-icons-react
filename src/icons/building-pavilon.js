@@ -19,7 +19,7 @@ export default function BuildingPavilon({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M3 21h7v-3a2 2 0 0 1 4 0v3h7' />
       <line x1='6' y1='21' x2='6' y2='12' />
       <line x1='18' y1='21' x2='18' y2='12' />

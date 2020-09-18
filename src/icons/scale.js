@@ -19,7 +19,7 @@ export default function Scale({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='12' y1='3' x2='12' y2='21' />
       <line x1='9' y1='21' x2='15' y2='21' />
       <polyline points='3 6 6 7 12 5 18 7 21 6' />

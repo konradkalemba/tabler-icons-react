@@ -19,7 +19,7 @@ export default function Plug({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M7 7h10v6a3 3 0 0 1 -3 3h-4a3 3 0 0 1 -3 -3v-6' />
       <line x1='9' y1='3' x2='9' y2='7' />
       <line x1='15' y1='3' x2='15' y2='7' />

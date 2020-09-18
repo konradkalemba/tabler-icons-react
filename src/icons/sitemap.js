@@ -19,7 +19,7 @@ export default function Sitemap({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <rect x='3' y='15' width='6' height='6' rx='2' />
       <rect x='15' y='15' width='6' height='6' rx='2' />
       <rect x='9' y='3' width='6' height='6' rx='2' />

@@ -19,7 +19,7 @@ export default function Search({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='10' cy='10' r='7' />
       <line x1='21' y1='21' x2='15' y2='15' />
     </svg>

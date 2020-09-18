@@ -19,7 +19,7 @@ export default function PlaneDeparture({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path
         d='M15 12h5a2 2 0 0 1 0 4h-15l-3 -6h3l2 2h3l-2 -7h3z'
         transform='rotate(-15 12 12) translate(0 -1)'

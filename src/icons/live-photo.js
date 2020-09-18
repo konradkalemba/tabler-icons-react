@@ -19,7 +19,7 @@ export default function LivePhoto({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='12' cy='12' r='1' />
       <circle cx='12' cy='12' r='5' />
       <line x1='15.9' y1='20.11' x2='15.9' y2='20.12' />

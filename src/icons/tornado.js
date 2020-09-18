@@ -19,7 +19,7 @@ export default function Tornado({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M21 4h-18' />
       <path d='M13 16h-6' />
       <line x1='11' y1='20' x2='15' y2='20' />

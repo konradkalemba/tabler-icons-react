@@ -19,7 +19,7 @@ export default function BuildingBank({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='3' y1='21' x2='21' y2='21' />
       <line x1='3' y1='10' x2='21' y2='10' />
       <polyline points='5 6 12 3 19 6' />

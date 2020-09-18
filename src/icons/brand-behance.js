@@ -19,7 +19,7 @@ export default function BrandBehance({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M3 18v-12h4.5a3 3 0 0 1 0 6a3 3 0 0 1 0 6h-4.5' />
       <line x1='3' y1='12' x2='7.5' y2='12' />
       <path d='M14 13h7a3.5 3.5 0 0 0 -7 0v2a3.5 3.5 0 0 0 6.64 1' />

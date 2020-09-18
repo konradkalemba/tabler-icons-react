@@ -19,7 +19,7 @@ export default function Columns({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <line x1='4' y1='6' x2='9.5' y2='6' />
       <line x1='4' y1='10' x2='9.5' y2='10' />
       <line x1='4' y1='14' x2='9.5' y2='14' />

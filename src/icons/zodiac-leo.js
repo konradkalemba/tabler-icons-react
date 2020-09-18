@@ -19,7 +19,7 @@ export default function ZodiacLeo({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M13 17a4 4 0 1 0 8 0' />
       <circle cx='6' cy='16' r='3' />
       <circle cx='11' cy='7' r='4' />

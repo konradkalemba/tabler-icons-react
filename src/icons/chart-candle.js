@@ -19,7 +19,7 @@ export default function ChartCandle({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <rect x='4' y='6' width='4' height='5' rx='1' />
       <line x1='6' y1='4' x2='6' y2='6' />
       <line x1='6' y1='11' x2='6' y2='20' />

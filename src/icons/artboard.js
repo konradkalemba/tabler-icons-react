@@ -19,7 +19,7 @@ export default function Artboard({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <rect x='8' y='8' width='8' height='8' rx='1' />
       <line x1='3' y1='8' x2='4' y2='8' />
       <line x1='3' y1='16' x2='4' y2='16' />

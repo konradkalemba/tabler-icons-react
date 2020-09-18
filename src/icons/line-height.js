@@ -19,7 +19,7 @@ export default function LineHeight({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <polyline points='3 8 6 5 9 8' />
       <polyline points='3 16 6 19 9 16' />
       <line x1='6' y1='5' x2='6' y2='19' />

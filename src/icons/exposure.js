@@ -19,7 +19,7 @@ export default function Exposure({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <rect x='4' y='4' width='16' height='16' rx='2' />
       <line x1='4.6' y1='19.4' x2='19.4' y2='4.6' />
       <path d='M7 9h4m-2 -2v4' />

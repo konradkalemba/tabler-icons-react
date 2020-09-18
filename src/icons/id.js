@@ -19,7 +19,7 @@ export default function Id({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <rect x='3' y='4' width='18' height='16' rx='3' />
       <circle cx='9' cy='10' r='2' />
       <line x1='15' y1='8' x2='17' y2='8' />

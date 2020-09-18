@@ -19,7 +19,7 @@ export default function LayoutSidebar({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <rect x='4' y='4' width='16' height='16' rx='2' />
       <line x1='9' y1='4' x2='9' y2='20' />
     </svg>

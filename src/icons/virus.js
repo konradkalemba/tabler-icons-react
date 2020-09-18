@@ -19,7 +19,7 @@ export default function Virus({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='12' cy='12' r='5' />
       <path d='M12 7v-4m-1 0h2' />
       <path d='M12 7v-4m-1 0h2' transform='rotate(45 12 12)' />

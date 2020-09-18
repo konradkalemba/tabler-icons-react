@@ -19,7 +19,7 @@ export default function Disabled({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='11' cy='5' r='2' />
       <polyline points='11 7 11 15 15 15 19 20' />
       <line x1='11' y1='11' x2='16' y2='11' />

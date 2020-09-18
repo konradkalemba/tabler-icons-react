@@ -19,7 +19,7 @@ export default function BrandTiktok({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5' />
     </svg>
   );

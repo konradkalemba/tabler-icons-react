@@ -19,7 +19,7 @@ export default function Walk({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='13' cy='4' r='1' />
       <line x1='7' y1='21' x2='10' y2='17' />
       <path d='M16 21l-2 -4l-3 -3l1 -6' />

@@ -19,7 +19,7 @@ export default function Code({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <polyline points='7 8 3 12 7 16' />
       <polyline points='17 8 21 12 17 16' />
       <line x1='14' y1='4' x2='10' y2='20' />

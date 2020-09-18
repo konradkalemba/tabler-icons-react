@@ -19,7 +19,7 @@ export default function CurrencyBitcoin({
       strokeLinejoin='round'
       {...restProps}
     >
-      <path stroke='none' d='M0 0h24v24H0z' />
+      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M6 6h8a3 3 0 0 1 0 6a3 3 0 0 1 0 6h-8' />
       <line x1='8' y1='6' x2='8' y2='18' />
       <line x1='8' y1='12' x2='14' y2='12' />
