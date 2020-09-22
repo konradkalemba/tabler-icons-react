@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function TrackNext({
+export default function BrandFoursquare({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function TrackNext({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-track-next'
+      className='icon icon-tabler icon-tabler-brand-foursquare'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,8 @@ export default function TrackNext({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M13.69 4.198l6.56 6.25c1 .798 1 2.306 0 3.105l-6.564 6.252c-.67 .48 -1.686 0 -1.686 -.805v-4l-5.394 4.808c-.669 .478 -1.606 0 -1.606 -.808v-14c0 -.812 .936 -1.285 1.602 -.809l5.398 4.809v-4c0 -.816 1.02 -1.28 1.69 -.802z' />
+      <path d='M7 3h10c.644 0 1.11 .696 .978 1.33l-1.984 9.859a1.014 1.014 0 0 1 -.994 .811h-2.254c-.308 0 -.6 .141 -.793 .382l-4.144 5.25c-.599 .752 -1.809 .331 -1.809 -.632v-16c0 -.564 .44 -1 1 -1z' />
+      <line x1='12' y1='9' x2='17' y2='9' />
     </svg>
   );
 }

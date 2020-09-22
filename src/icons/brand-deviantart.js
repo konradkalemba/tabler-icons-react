@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function TrackNext({
+export default function BrandDeviantart({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function TrackNext({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-track-next'
+      className='icon icon-tabler icon-tabler-brand-deviantart'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,7 @@ export default function TrackNext({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M13.69 4.198l6.56 6.25c1 .798 1 2.306 0 3.105l-6.564 6.252c-.67 .48 -1.686 0 -1.686 -.805v-4l-5.394 4.808c-.669 .478 -1.606 0 -1.606 -.808v-14c0 -.812 .936 -1.285 1.602 -.809l5.398 4.809v-4c0 -.816 1.02 -1.28 1.69 -.802z' />
+      <path d='M18 3v4l-3.857 6h3.857v4h-6.429l-2.571 4h-3v-4l3.857 -6h-3.857v-4h6.429l2.571 -4z' />
     </svg>
   );
 }

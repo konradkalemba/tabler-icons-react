@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function TrackNext({
+export default function BrandSkype({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function TrackNext({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-track-next'
+      className='icon icon-tabler icon-tabler-brand-skype'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,8 @@ export default function TrackNext({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M13.69 4.198l6.56 6.25c1 .798 1 2.306 0 3.105l-6.564 6.252c-.67 .48 -1.686 0 -1.686 -.805v-4l-5.394 4.808c-.669 .478 -1.606 0 -1.606 -.808v-14c0 -.812 .936 -1.285 1.602 -.809l5.398 4.809v-4c0 -.816 1.02 -1.28 1.69 -.802z' />
+      <path d='M12 3a9 9 0 0 1 8.603 11.65a4.5 4.5 0 0 1 -5.953 5.953a9 9 0 0 1 -11.253 -11.253a4.5 4.5 0 0 1 5.953 -5.954a8.987 8.987 0 0 1 2.65 -.396z' />
+      <path d='M8 14.5c.5 2 2.358 2.5 4 2.5c2.905 0 4 -1.187 4 -2.5c0 -1.503 -1.927 -2.5 -4 -2.5s-4 -.997 -4 -2.5c0 -1.313 1.095 -2.5 4 -2.5c1.642 0 3.5 .5 4 2.5' />
     </svg>
   );
 }

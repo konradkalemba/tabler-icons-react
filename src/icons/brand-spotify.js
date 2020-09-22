@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function TrackNext({
+export default function BrandSpotify({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function TrackNext({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-track-next'
+      className='icon icon-tabler icon-tabler-brand-spotify'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,10 @@ export default function TrackNext({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M13.69 4.198l6.56 6.25c1 .798 1 2.306 0 3.105l-6.564 6.252c-.67 .48 -1.686 0 -1.686 -.805v-4l-5.394 4.808c-.669 .478 -1.606 0 -1.606 -.808v-14c0 -.812 .936 -1.285 1.602 -.809l5.398 4.809v-4c0 -.816 1.02 -1.28 1.69 -.802z' />
+      <circle cx='12' cy='12' r='9' />
+      <path d='M8 11.973c2.5-1.473 5.5-.973 7.5.527' />
+      <path d='M9 15c1.5-1 4-1 5 .5' />
+      <path d='M7 9c2-1 6-2 10 .5' />
     </svg>
   );
 }
