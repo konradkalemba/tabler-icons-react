@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function BallTennis({
+export default function FloatNone({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function BallTennis({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-ball-tennis'
+      className='icon icon-tabler icon-tabler-float-none'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,9 @@ export default function BallTennis({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <circle cx='12' cy='12' r='9' />
-      <path d='M6 5.3a9 9 0 0 1 0 13.4' />
-      <path d='M18 5.3a9 9 0 0 0 0 13.4' />
+      <rect width='6' height='6' x='4' y='5' rx='1' />
+      <line x1='4' y1='15' x2='20' y2='15' />
+      <line x1='4' y1='19' x2='20' y2='19' />
     </svg>
   );
 }

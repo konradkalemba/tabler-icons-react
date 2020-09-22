@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function BallTennis({
+export default function ScreenShareOff({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function BallTennis({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-ball-tennis'
+      className='icon icon-tabler icon-tabler-screen-share-off'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,11 @@ export default function BallTennis({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <circle cx='12' cy='12' r='9' />
-      <path d='M6 5.3a9 9 0 0 1 0 13.4' />
-      <path d='M18 5.3a9 9 0 0 0 0 13.4' />
+      <path d='M21 12v3a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10a1 1 0 0 1 1 -1h9' />
+      <line x1='7' y1='20' x2='17' y2='20' />
+      <line x1='9' y1='16' x2='9' y2='20' />
+      <line x1='15' y1='16' x2='15' y2='20' />
+      <path d='M17 8l4 -4m-4 0l4 4' />
     </svg>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function BallTennis({
+export default function MicrophoneOff({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function BallTennis({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-ball-tennis'
+      className='icon icon-tabler icon-tabler-microphone-off'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,11 @@ export default function BallTennis({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <circle cx='12' cy='12' r='9' />
-      <path d='M6 5.3a9 9 0 0 1 0 13.4' />
-      <path d='M18 5.3a9 9 0 0 0 0 13.4' />
+      <line x1='3' y1='3' x2='21' y2='21' />
+      <path d='M9 5a3 3 0 0 1 6 0v5a3 3 0 0 1 -.13 .874m-2 2a3 3 0 0 1 -3.87 -2.872v-1' />
+      <path d='M5 10a7 7 0 0 0 10.846 5.85m2.002 -2a6.967 6.967 0 0 0 1.152 -3.85' />
+      <line x1='8' y1='21' x2='16' y2='21' />
+      <line x1='12' y1='17' x2='12' y2='21' />
     </svg>
   );
 }
