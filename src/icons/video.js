@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function CloudFog({
+export default function Video({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function CloudFog({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-cloud-fog'
+      className='icon icon-tabler icon-tabler-video'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,8 +20,8 @@ export default function CloudFog({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M7 16a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-12' />
-      <line x1='5' y1='20' x2='19' y2='20' />
+      <path d='M15 10l4.553 -2.276a1 1 0 0 1 1.447 .894v6.764a1 1 0 0 1 -1.447 .894l-4.553 -2.276v-4z' />
+      <rect x='3' y='6' width='12' height='12' rx='2' />
     </svg>
   );
 }
