@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Notification({
+export default function BuildingMonument({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Notification({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-notification'
+      className='icon icon-tabler icon-tabler-building-monument'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,8 +20,9 @@ export default function Notification({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M10 6h-3a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-3' />
-      <circle cx='17' cy='7' r='3' />
+      <path d='M8 18l2 -13l2 -2l2 2l2 13' />
+      <path d='M5 21v-3h14v3' />
+      <line x1='3' y1='21' x2='21' y2='21' />
     </svg>
   );
 }

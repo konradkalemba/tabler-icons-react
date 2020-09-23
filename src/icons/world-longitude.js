@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Notification({
+export default function WorldLongitude({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Notification({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-notification'
+      className='icon icon-tabler icon-tabler-world-longitude'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,8 +20,10 @@ export default function Notification({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M10 6h-3a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-3' />
-      <circle cx='17' cy='7' r='3' />
+      <circle cx='12' cy='12' r='9' />
+      <path d='M11.5 3a11.2 11.2 0 0 0 0 18' />
+      <path d='M12.5 3a11.2 11.2 0 0 1 0 18' />
+      <line x1='12' y1='3' x2='12' y2='21' />
     </svg>
   );
 }
