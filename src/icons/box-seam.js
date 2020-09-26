@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function AntennaBars1({
+export default function BoxSeam({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function AntennaBars1({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-antenna-bars-1'
+      className='icon icon-tabler icon-tabler-box-seam'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,10 +20,11 @@ export default function AntennaBars1({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <line x1='6' y1='18' x2='6' y2='18.01' />
-      <line x1='10' y1='18' x2='10' y2='18.01' />
-      <line x1='14' y1='18' x2='14' y2='18.01' />
-      <line x1='18' y1='18' x2='18' y2='18.01' />
+      <polyline points='12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3' />
+      <line x1='12' y1='12' x2='20' y2='7.5' />
+      <line x1='12' y1='12' x2='12' y2='21' />
+      <line x1='12' y1='12' x2='4' y2='7.5' />
+      <line x1='16' y1='5.25' x2='8' y2='9.75' />
     </svg>
   );
 }

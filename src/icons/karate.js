@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function AntennaBars1({
+export default function Karate({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function AntennaBars1({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-antenna-bars-1'
+      className='icon icon-tabler icon-tabler-karate'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,10 +20,10 @@ export default function AntennaBars1({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <line x1='6' y1='18' x2='6' y2='18.01' />
-      <line x1='10' y1='18' x2='10' y2='18.01' />
-      <line x1='14' y1='18' x2='14' y2='18.01' />
-      <line x1='18' y1='18' x2='18' y2='18.01' />
+      <circle cx='18' cy='4' r='1' />
+      <path d='M3 9l4.5 1l3 2.5' />
+      <path d='M13 21v-8l3-5.5' />
+      <path d='M8 4.5l4 2l4 1l4 3.5l-2 3.5' />
     </svg>
   );
 }
