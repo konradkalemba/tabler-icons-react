@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function TrackPrev({
+export default function PlayerSkipForward({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function TrackPrev({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-track-prev'
+      className='icon icon-tabler icon-tabler-player-skip-forward'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,8 @@ export default function TrackPrev({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M10.31 19.802l-6.56 -6.249c-1 -.799 -1 -2.307 0 -3.106l6.564 -6.252c.67 -.48 1.686 0 1.686 .805v4l5.394 -4.808c.669 -.478 1.606 0 1.606 .808v14c0 .812 -.936 1.285 -1.602 .809l-5.398 -4.809v4c0 .816 -1.02 1.281 -1.69 .802z' />
+      <path d='M4 5v14l12 -7z' />
+      <line x1='20' y1='5' x2='20' y2='19' />
     </svg>
   );
 }

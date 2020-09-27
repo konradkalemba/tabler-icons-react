@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function SkipBack({
+export default function PictureInPictureOff({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function SkipBack({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-skip-back'
+      className='icon icon-tabler icon-tabler-picture-in-picture-off'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,8 +20,10 @@ export default function SkipBack({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M20 18v-12a2 2 0 0 0 -2.75 -1.84l-8.25 6.1a2 2 0 0 0 0 3.5l8.25 6.1a2 2 0 0 0 2.75 -1.75' />
-      <line x1='4' y1='20' x2='4' y2='4' />
+      <path d='M11 19h-6a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4' />
+      <rect x='14' y='14' width='7' height='5' rx='1' />
+      <line x1='7' y1='9' x2='11' y2='13' />
+      <path d='M7 12v-3h3' />
     </svg>
   );
 }
