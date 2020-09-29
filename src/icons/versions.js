@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Flame({
+export default function Versions({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Flame({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-flame'
+      className='icon icon-tabler icon-tabler-versions'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,9 @@ export default function Flame({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M12 12c2 -2.96 0 -7 -1 -8c0 3.038 -1.762 4.383 -2.989 5.642c-1.226 1.26 -2.011 2.598 -2.011 4.358a6 6 0 1 0 12 0c0 -1.532 -.77 -2.94 -1.714 -4c-1.786 3 -3.077 3 -4.286 2z' />
+      <rect x='10' y='5' width='10' height='14' rx='2' />
+      <line x1='7' y1='7' x2='7' y2='17' />
+      <line x1='4' y1='8' x2='4' y2='16' />
     </svg>
   );
 }
