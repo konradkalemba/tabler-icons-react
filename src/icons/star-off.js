@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Pin({
+export default function StarOff({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Pin({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-pin'
+      className='icon icon-tabler icon-tabler-star-off'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,8 @@ export default function Pin({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M15 4.5l-4 4l-4 1.5l-1.5 1.5l7 7l1.5 -1.5l1.5 -4l4 -4' />
-      <line x1='9' y1='15' x2='4.5' y2='19.5' />
-      <line x1='14.5' y1='4' x2='20' y2='9.5' />
+      <line x1='3' y1='3' x2='21' y2='21' />
+      <path d='M10.012 6.016l1.981 -4.014l3.086 6.253l6.9 1l-4.421 4.304m.012 4.01l.588 3.426l-6.158 -3.245l-6.172 3.245l1.179 -6.873l-5 -4.867l6.327 -.917' />
     </svg>
   );
 }

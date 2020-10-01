@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Pin({
+export default function ToolsKitchen({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Pin({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-pin'
+      className='icon icon-tabler icon-tabler-tools-kitchen'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,11 @@ export default function Pin({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M15 4.5l-4 4l-4 1.5l-1.5 1.5l7 7l1.5 -1.5l1.5 -4l4 -4' />
-      <line x1='9' y1='15' x2='4.5' y2='19.5' />
-      <line x1='14.5' y1='4' x2='20' y2='9.5' />
+      <path d='M4 3h8l-1 9h-6z' />
+      <path d='M7 18h2v3h-2z' />
+      <path d='M20 3v12h-5c-.023-3.681.184-7.406 5-12z' />
+      <path d='M20 15v6h-1v-3' />
+      <line x1='8' y1='12' x2='8' y2='18' />
     </svg>
   );
 }

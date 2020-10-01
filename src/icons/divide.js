@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Pin({
+export default function Divide({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Pin({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-pin'
+      className='icon icon-tabler icon-tabler-divide'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,9 @@ export default function Pin({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M15 4.5l-4 4l-4 1.5l-1.5 1.5l7 7l1.5 -1.5l1.5 -4l4 -4' />
-      <line x1='9' y1='15' x2='4.5' y2='19.5' />
-      <line x1='14.5' y1='4' x2='20' y2='9.5' />
+      <circle fill='currentColor' cx='12' cy='6' r='1' />
+      <circle fill='currentColor' cx='12' cy='18' r='1' />
+      <line x1='5' y1='12' x2='19' y2='12' />
     </svg>
   );
 }
