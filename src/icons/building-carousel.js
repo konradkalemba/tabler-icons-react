@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Gps({
+export default function BuildingCarousel({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Gps({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-gps'
+      className='icon icon-tabler icon-tabler-building-carousel'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,8 +20,13 @@ export default function Gps({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <circle cx='12' cy='12' r='9' />
-      <path d='M12 17l-1 -4l-4 -1l9 -4z' />
+      <circle cx='12' cy='12' r='6' />
+      <circle cx='5' cy='8' r='2' />
+      <circle cx='12' cy='4' r='2' />
+      <circle cx='19' cy='8' r='2' />
+      <circle cx='5' cy='16' r='2' />
+      <circle cx='19' cy='16' r='2' />
+      <path d='M8 22l4-10 4 10' />
     </svg>
   );
 }

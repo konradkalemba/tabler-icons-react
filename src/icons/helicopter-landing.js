@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Gps({
+export default function HelicopterLanding({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Gps({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-gps'
+      className='icon icon-tabler icon-tabler-helicopter-landing'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,8 +20,10 @@ export default function Gps({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <circle cx='12' cy='12' r='9' />
-      <path d='M12 17l-1 -4l-4 -1l9 -4z' />
+      <rect x='4' y='4' width='16' height='16' rx='2' />
+      <line x1='9' y1='8' x2='9' y2='16' />
+      <line x1='9' y1='12' x2='15' y2='12' />
+      <line x1='15' y1='8' x2='15' y2='16' />
     </svg>
   );
 }
