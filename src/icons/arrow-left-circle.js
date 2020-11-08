@@ -20,10 +20,9 @@ export default function ArrowLeftCircle({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <circle cx='12' cy='12' r='9' />
-      <line x1='8' y1='12' x2='16' y2='12' />
-      <line x1='8' y1='12' x2='12' y2='16' />
-      <line x1='8' y1='12' x2='12' y2='8' />
+      <line x1='17' y1='12' x2='3' y2='12' />
+      <path d='M6 9l-3 3l3 3' />
+      <circle cx='19' cy='12' r='2' />
     </svg>
   );
 }

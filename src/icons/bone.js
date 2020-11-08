@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ArrowRightCircle({
+export default function Bone({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function ArrowRightCircle({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-arrow-right-circle'
+      className='icon icon-tabler icon-tabler-bone'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,7 @@ export default function ArrowRightCircle({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M18 15l3 -3l-3 -3' />
-      <circle cx='5' cy='12' r='2' />
-      <line x1='7' y1='12' x2='21' y2='12' />
+      <path d='M15 3a3 3 0 0 1 3 3a3 3 0 1 1 -2.12 5.122l-4.758 4.758a3 3 0 1 1 -5.117 2.297l-.005 -.177l-.176 -.005a3 3 0 1 1 2.298 -5.115l4.758 -4.758a3 3 0 0 1 2.12 -5.122z' />
     </svg>
   );
 }

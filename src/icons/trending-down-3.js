@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ArrowRightCircle({
+export default function TrendingDown3({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function ArrowRightCircle({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-arrow-right-circle'
+      className='icon icon-tabler icon-tabler-trending-down-3'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,8 @@ export default function ArrowRightCircle({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M18 15l3 -3l-3 -3' />
-      <circle cx='5' cy='12' r='2' />
-      <line x1='7' y1='12' x2='21' y2='12' />
+      <path d='M3 6h2.397a5 5 0 0 1 4.096 2.133l4.014 5.734a5 5 0 0 0 4.096 2.133h3.397' />
+      <path d='M18 19l3 -3l-3 -3' />
     </svg>
   );
 }

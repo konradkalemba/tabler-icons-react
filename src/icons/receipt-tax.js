@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ArrowRightCircle({
+export default function ReceiptTax({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function ArrowRightCircle({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-arrow-right-circle'
+      className='icon icon-tabler icon-tabler-receipt-tax'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,10 @@ export default function ArrowRightCircle({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M18 15l3 -3l-3 -3' />
-      <circle cx='5' cy='12' r='2' />
-      <line x1='7' y1='12' x2='21' y2='12' />
+      <line x1='9' y1='14' x2='15' y2='8' />
+      <circle cx='9.5' cy='8.5' r='.5' fill='currentColor' />
+      <circle cx='14.5' cy='13.5' r='.5' fill='currentColor' />
+      <path d='M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2' />
     </svg>
   );
 }

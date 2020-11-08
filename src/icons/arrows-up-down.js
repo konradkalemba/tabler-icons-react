@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Grid({
+export default function ArrowsUpDown({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Grid({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-grid'
+      className='icon icon-tabler icon-tabler-arrows-up-down'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,10 +20,10 @@ export default function Grid({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <rect x='4' y='4' width='6' height='6' rx='1' />
-      <rect x='14' y='4' width='6' height='6' rx='1' />
-      <rect x='4' y='14' width='6' height='6' rx='1' />
-      <rect x='14' y='14' width='6' height='6' rx='1' />
+      <line x1='7' y1='3' x2='7' y2='21' />
+      <path d='M10 6l-3 -3l-3 3' />
+      <path d='M20 18l-3 3l-3 -3' />
+      <line x1='17' y1='21' x2='17' y2='3' />
     </svg>
   );
 }
