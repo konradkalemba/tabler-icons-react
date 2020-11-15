@@ -4,7 +4,7 @@ const prettier = require('prettier');
 
 const SOURCE_ICONS_PATH = path.resolve(
   __dirname,
-  '../node_modules/tabler-icons/icons'
+  '../node_modules/@tabler/icons/icons'
 );
 const DESTINATION_ICONS_PATH = path.resolve(__dirname, '../src/icons');
 
