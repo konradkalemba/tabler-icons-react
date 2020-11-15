@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Planet({
+export default function BrandBooking({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Planet({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-planet'
+      className='icon icon-tabler icon-tabler-brand-booking'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,8 +20,9 @@ export default function Planet({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M18.816 13.58c2.292 2.138 3.546 4 3.092 4.9-.745 1.46-5.783-.259-11.255-3.838-5.47-3.579-9.304-7.664-8.56-9.123 .464-.91 2.926-.444 5.803.805' />
-      <circle cx='12' cy='12' r='7' />
+      <path d='M4 18v-9.5a4.5 4.5 0 0 1 4.5 -4.5h7a4.5 4.5 0 0 1 4.5 4.5v7a4.5 4.5 0 0 1 -4.5 4.5h-9.5a2 2 0 0 1 -2 -2z' />
+      <path d='M8 12h3.5a2 2 0 1 1 0 4h-3.5v-7a1 1 0 0 1 1 -1h1.5a2 2 0 1 1 0 4h-1.5' />
+      <line x1='16' y1='16' x2='16.01' y2='16' />
     </svg>
   );
 }

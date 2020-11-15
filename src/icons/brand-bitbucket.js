@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Planet({
+export default function BrandBitbucket({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Planet({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-planet'
+      className='icon icon-tabler icon-tabler-brand-bitbucket'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,8 +20,8 @@ export default function Planet({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M18.816 13.58c2.292 2.138 3.546 4 3.092 4.9-.745 1.46-5.783-.259-11.255-3.838-5.47-3.579-9.304-7.664-8.56-9.123 .464-.91 2.926-.444 5.803.805' />
-      <circle cx='12' cy='12' r='7' />
+      <path d='M3.648 4a0.64 .64 0 0 0 -.64 .744l3.14 14.528c.07 .417 .43 .724 .852 .728h10a0.644 .644 0 0 0 .642 -.539l3.35 -14.71a0.641 .641 0 0 0 -.64 -.744l-16.704 -.007z' />
+      <path d='M14 15h-4l-1 -6h6z' />
     </svg>
   );
 }
