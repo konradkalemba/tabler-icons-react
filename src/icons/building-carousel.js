@@ -26,7 +26,7 @@ export default function BuildingCarousel({
       <circle cx='19' cy='8' r='2' />
       <circle cx='5' cy='16' r='2' />
       <circle cx='19' cy='16' r='2' />
-      <path d='M8 22l4-10 4 10' />
+      <path d='M8 22l4 -10l4 10' />
     </svg>
   );
 }
