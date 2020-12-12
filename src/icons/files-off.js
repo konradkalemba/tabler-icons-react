@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function CreditCardOff({
+export default function FilesOff({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function CreditCardOff({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-credit-card-off'
+      className='icon icon-tabler icon-tabler-files-off'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,13 +20,10 @@ export default function CreditCardOff({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
+      <path d='M15 3v4a1 1 0 0 0 1 1h4' />
+      <path d='M17 17h-6a2 2 0 0 1 -2 -2v-6m0 -4a2 2 0 0 1 2 -2h4l5 5v7c0 .294 -.063 .572 -.177 .823' />
+      <path d='M16 17v2a2 2 0 0 1 -2 2h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2' />
       <line x1='3' y1='3' x2='21' y2='21' />
-      <path d='M9 5h9a3 3 0 0 1 3 3v8a3 3 0 0 1 -.128 .87' />
-      <path d='M18.87 18.872a3 3 0 0 1 -.87 .128h-12a3 3 0 0 1 -3 -3v-8c0 -1.352 .894 -2.495 2.124 -2.87' />
-      <line x1='3' y1='11' x2='11' y2='11' />
-      <line x1='15' y1='11' x2='21' y2='11' />
-      <line x1='7' y1='15' x2='7.01' y2='15' />
-      <line x1='11' y1='15' x2='13' y2='15' />
     </svg>
   );
 }

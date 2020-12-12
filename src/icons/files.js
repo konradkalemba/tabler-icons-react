@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function LayoutGridAdd({
+export default function Files({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function LayoutGridAdd({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-layout-grid-add'
+      className='icon icon-tabler icon-tabler-files'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,11 +20,9 @@ export default function LayoutGridAdd({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <rect x='4' y='4' width='6' height='6' rx='1' />
-      <rect x='14' y='4' width='6' height='6' rx='1' />
-      <rect x='4' y='14' width='6' height='6' rx='1' />
-      <path d='M14 17h6' />
-      <path d='M17 14v6' />
+      <path d='M15 3v4a1 1 0 0 0 1 1h4' />
+      <path d='M18 17h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h4l5 5v7a2 2 0 0 1 -2 2z' />
+      <path d='M16 17v2a2 2 0 0 1 -2 2h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2' />
     </svg>
   );
 }
