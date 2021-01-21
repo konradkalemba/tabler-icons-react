@@ -20,9 +20,9 @@ export default function ArrowLeftBar({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <line x1='21' y1='12' x2='3' y2='12' />
+      <path d='M21 12h-18' />
       <path d='M6 9l-3 3l3 3' />
-      <line x1='21' y1='9' x2='21' y2='15' />
+      <path d='M21 9v6' />
     </svg>
   );
 }

@@ -21,8 +21,8 @@ export default function ArrowRightBar({
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M18 15l3 -3l-3 -3' />
-      <line x1='3' y1='12' x2='21' y2='12' />
-      <line x1='3' y1='9' x2='3' y2='15' />
+      <path d='M3 12h18' />
+      <path d='M3 9v6' />
     </svg>
   );
 }

@@ -20,8 +20,8 @@ export default function Mouse({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <rect x='7' y='4' width='10' height='16' rx='4' />
-      <line x1='12' y1='8' x2='12' y2='11' />
+      <rect x='6' y='3' width='12' height='18' rx='4' />
+      <line x1='12' y1='7' x2='12' y2='11' />
     </svg>
   );
 }

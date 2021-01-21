@@ -20,7 +20,7 @@ export default function ArrowBottomCircle({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <line x1='12' y1='7' x2='12' y2='21' />
+      <path d='M12 7v14' />
       <path d='M9 18l3 3l3 -3' />
       <circle cx='12' cy='5' r='2' />
     </svg>

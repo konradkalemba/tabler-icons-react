@@ -20,7 +20,7 @@ export default function Droplet({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M12 3l5 5a7 7 0 1 1 -10 0l5 -5' />
+      <path d='M6.8 11a6 6 0 1 0 10.396 0l-5.197 -8l-5.2 8z' />
     </svg>
   );
 }

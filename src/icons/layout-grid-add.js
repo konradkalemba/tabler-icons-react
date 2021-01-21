@@ -23,8 +23,7 @@ export default function LayoutGridAdd({
       <rect x='4' y='4' width='6' height='6' rx='1' />
       <rect x='14' y='4' width='6' height='6' rx='1' />
       <rect x='4' y='14' width='6' height='6' rx='1' />
-      <path d='M14 17h6' />
-      <path d='M17 14v6' />
+      <path d='M14 17h6m-3 -3v6' />
     </svg>
   );
 }
