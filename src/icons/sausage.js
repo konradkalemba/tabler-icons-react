@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Sunset({
+export default function Sausage({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Sunset({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-sunset'
+      className='icon icon-tabler icon-tabler-sausage'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,9 @@ export default function Sunset({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M3 17h1m16 0h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7m-9.7 5.7a4 4 0 0 1 8 0' />
-      <line x1='3' y1='21' x2='21' y2='21' />
-      <path d='M12 3v6l3 -3m-6 0l3 3' />
+      <path d='M5.5 5.5a2.5 2.5 0 0 0 -2.5 2.5c0 7.18 5.82 13 13 13a2.5 2.5 0 1 0 0 -5a8 8 0 0 1 -8 -8a2.5 2.5 0 0 0 -2.5 -2.5z' />
+      <path d='M5.195 5.519l-1.243 -1.989a1 1 0 0 1 .848 -1.53h1.392a1 1 0 0 1 .848 1.53l-1.245 1.99' />
+      <path d='M18.482 18.225l1.989 -1.243a1 1 0 0 1 1.53 .848v1.392a1 1 0 0 1 -1.53 .848l-1.991 -1.245' />
     </svg>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Sunshine({
+export default function ListNumbers({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Sunshine({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-sunshine'
+      className='icon icon-tabler icon-tabler-list-numbers'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,11 @@ export default function Sunshine({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M3 17h1m16 0h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7m-9.7 5.7a4 4 0 0 1 8 0' />
-      <line x1='3' y1='21' x2='21' y2='21' />
-      <path d='M12 3v6l3 -3m-6 0l3 3' />
+      <path d='M11 6h9' />
+      <path d='M11 12h9' />
+      <path d='M12 18h8' />
+      <path d='M4 16a2 2 0 1 1 4 0c0 .591 -.5 1 -1 1.5l-3 2.5h4' />
+      <path d='M6 10v-6l-2 2' />
     </svg>
   );
 }

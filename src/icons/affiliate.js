@@ -20,8 +20,8 @@ export default function Affiliate({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M5.5 5.5l1.706 5.685m5.607 5.609l5.687 1.706' />
-      <path d='M11.683 12.317l6.817 -6.817' />
+      <path d='M5.931 6.936l1.275 4.249m5.607 5.609l4.251 1.275' />
+      <path d='M11.683 12.317l5.759 -5.759' />
       <circle cx='5.5' cy='5.5' r='1.5' />
       <circle cx='18.5' cy='5.5' r='1.5' />
       <circle cx='18.5' cy='18.5' r='1.5' />

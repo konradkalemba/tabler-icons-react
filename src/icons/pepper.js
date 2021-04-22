@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Sunset({
+export default function Pepper({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Sunset({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-sunset'
+      className='icon icon-tabler icon-tabler-pepper'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,8 @@ export default function Sunset({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M3 17h1m16 0h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7m-9.7 5.7a4 4 0 0 1 8 0' />
-      <line x1='3' y1='21' x2='21' y2='21' />
-      <path d='M12 3v6l3 -3m-6 0l3 3' />
+      <path d='M13 11c0 2.21 -2.239 4 -5 4s-5 -1.79 -5 -4a8 8 0 1 0 16 0a3 3 0 0 0 -6 0' />
+      <path d='M16 8c0 -2 2 -4 4 -4' />
     </svg>
   );
 }

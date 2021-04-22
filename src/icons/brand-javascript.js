@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Sunset({
+export default function BrandJavascript({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Sunset({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-sunset'
+      className='icon icon-tabler icon-tabler-brand-javascript'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,9 @@ export default function Sunset({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M3 17h1m16 0h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7m-9.7 5.7a4 4 0 0 1 8 0' />
-      <line x1='3' y1='21' x2='21' y2='21' />
-      <path d='M12 3v6l3 -3m-6 0l3 3' />
+      <path d='M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z' />
+      <path d='M7.5 8h3v8l-2 -1' />
+      <path d='M16.5 8h-2.5a0.5 .5 0 0 0 -.5 .5v3a0.5 .5 0 0 0 .5 .5h1.423a0.5 .5 0 0 1 .495 .57l-.418 2.93l-2 .5' />
     </svg>
   );
 }
