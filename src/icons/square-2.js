@@ -20,7 +20,7 @@ export default function Square2({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M10 10a2 2 0 1 1 4 0c0 .591 -.417 1.318 -.816 1.858l-3.184 4.143l4 -.001' />
+      <path d='M10 10a2 2 0 1 1 4 0c0 .591 -.417 1.318 -.816 1.858l-3.184 4.143l4 0' />
       <rect x='4' y='4' width='16' height='16' rx='2' />
     </svg>
   );
