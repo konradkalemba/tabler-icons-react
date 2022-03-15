@@ -40,6 +40,7 @@ function createComponentName(originalName) {
       // A digit at the beginning of component name is not allowed
       .replace('2fa', 'TwoFA')
       .replace('3dCubeSphere', 'ThreeDCubeSphere')
+      .replace('3dRotate', 'ThreeDRotate')
   );
 }
 
