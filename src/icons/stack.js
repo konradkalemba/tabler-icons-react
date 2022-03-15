@@ -20,9 +20,8 @@ export default function Stack({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <polyline points='12 4 4 8 12 12 20 8 12 4' />
-      <polyline points='4 12 12 16 20 12' />
-      <polyline points='4 16 12 20 20 16' />
+      <path d='M12 6l-8 4l8 4l8 -4l-8 -4' />
+      <path d='M4 14l8 4l8 -4' />
     </svg>
   );
 }

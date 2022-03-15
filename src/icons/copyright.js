@@ -21,7 +21,7 @@ export default function Copyright({
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='12' cy='12' r='9' />
-      <path d='M14.5 9a3.5 4 0 1 0 0 6' />
+      <path d='M14 9.75a3.016 3.016 0 0 0 -4.163 .173a2.993 2.993 0 0 0 0 4.154a3.016 3.016 0 0 0 4.163 .173' />
     </svg>
   );
 }
