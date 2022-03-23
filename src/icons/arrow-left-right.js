@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function DeviceMobileVibration({
+export default function ArrowLeftRight({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function DeviceMobileVibration({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-device-mobile-vibration'
+      className='icon icon-tabler icon-tabler-arrow-left-right'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,10 +20,10 @@ export default function DeviceMobileVibration({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <rect x='3' y='3' width='12' height='18' rx='2' />
-      <line x1='8' y1='4' x2='10' y2='4' />
-      <line x1='9' y1='17' x2='9' y2='17.01' />
-      <path d='M21 6l-2 3l2 3l-2 3l2 3' />
+      <path d='M17 13l4 -4l-4 -4' />
+      <path d='M7 13l-4 -4l4 -4' />
+      <path d='M12 14a5 5 0 0 1 5 -5h4' />
+      <path d='M12 19v-5a5 5 0 0 0 -5 -5h-4' />
     </svg>
   );
 }
