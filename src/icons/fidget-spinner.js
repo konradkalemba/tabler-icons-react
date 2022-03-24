@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Directions({
+export default function FidgetSpinner({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Directions({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-directions'
+      className='icon icon-tabler icon-tabler-fidget-spinner'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,12 +20,10 @@ export default function Directions({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M12 21v-4' />
-      <path d='M12 13v-4' />
-      <path d='M12 5v-2' />
-      <path d='M10 21h4' />
-      <path d='M8 5v4h11l2 -2l-2 -2z' />
-      <path d='M14 13v4h-8l-2 -2l2 -2z' />
+      <path d='M10 17a3 3 0 1 1 -1.543 -2.623l2.087 -3.754a3 3 0 0 1 1.456 -5.623a3 3 0 0 1 1.457 5.623l2.087 3.754a3 3 0 1 1 -1.538 2.8l-.006 -.177h-4z' />
+      <path d='M17 17v.01' />
+      <path d='M7 17v.01' />
+      <path d='M12 8v.01' />
     </svg>
   );
 }
