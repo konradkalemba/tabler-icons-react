@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function TestPipe({
+export default function Ballpen({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function TestPipe({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-test-pipe'
+      className='icon icon-tabler icon-tabler-ballpen'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,10 +20,9 @@ export default function TestPipe({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M20 8.04l-12.122 12.124a2.857 2.857 0 1 1 -4.041 -4.04l12.122 -12.124' />
-      <path d='M7 13h8' />
-      <path d='M19 15l1.5 1.6a2 2 0 1 1 -3 0l1.5 -1.6z' />
-      <path d='M15 3l6 6' />
+      <path d='M14 6l7 7l-4 4' />
+      <path d='M5.828 18.172a2.828 2.828 0 0 0 4 0l10.586 -10.586a2 2 0 0 0 0 -2.829l-1.171 -1.171a2 2 0 0 0 -2.829 0l-10.586 10.586a2.828 2.828 0 0 0 0 4z' />
+      <path d='M4 20l1.768 -1.768' />
     </svg>
   );
 }

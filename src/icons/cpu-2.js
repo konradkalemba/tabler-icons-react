@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function TestPipe({
+export default function Cpu2({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function TestPipe({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-test-pipe'
+      className='icon icon-tabler icon-tabler-cpu-2'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,10 +20,16 @@ export default function TestPipe({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M20 8.04l-12.122 12.124a2.857 2.857 0 1 1 -4.041 -4.04l12.122 -12.124' />
-      <path d='M7 13h8' />
-      <path d='M19 15l1.5 1.6a2 2 0 1 1 -3 0l1.5 -1.6z' />
-      <path d='M15 3l6 6' />
+      <rect x='5' y='5' width='14' height='14' rx='1' />
+      <path d='M8 10v-2h2m6 6v2h-2m-4 0h-2v-2m8 -4v-2h-2' />
+      <path d='M3 10h2' />
+      <path d='M3 14h2' />
+      <path d='M10 3v2' />
+      <path d='M14 3v2' />
+      <path d='M21 10h-2' />
+      <path d='M21 14h-2' />
+      <path d='M14 21v-2' />
+      <path d='M10 21v-2' />
     </svg>
   );
 }

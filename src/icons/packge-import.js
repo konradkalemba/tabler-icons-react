@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function TestPipe({
+export default function PackgeImport({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function TestPipe({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-test-pipe'
+      className='icon icon-tabler icon-tabler-packge-import'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,10 +20,12 @@ export default function TestPipe({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M20 8.04l-12.122 12.124a2.857 2.857 0 1 1 -4.041 -4.04l12.122 -12.124' />
-      <path d='M7 13h8' />
-      <path d='M19 15l1.5 1.6a2 2 0 1 1 -3 0l1.5 -1.6z' />
-      <path d='M15 3l6 6' />
+      <path d='M12 21l-8 -4.5v-9l8 -4.5l8 4.5v4.5' />
+      <path d='M12 12l8 -4.5' />
+      <path d='M12 12v9' />
+      <path d='M12 12l-8 -4.5' />
+      <path d='M22 18h-7' />
+      <path d='M18 15l-3 3l3 3' />
     </svg>
   );
 }

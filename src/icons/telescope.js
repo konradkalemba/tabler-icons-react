@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function TestPipe({
+export default function Telescope({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function TestPipe({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-test-pipe'
+      className='icon icon-tabler icon-tabler-telescope'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,10 +20,10 @@ export default function TestPipe({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M20 8.04l-12.122 12.124a2.857 2.857 0 1 1 -4.041 -4.04l12.122 -12.124' />
-      <path d='M7 13h8' />
-      <path d='M19 15l1.5 1.6a2 2 0 1 1 -3 0l1.5 -1.6z' />
-      <path d='M15 3l6 6' />
+      <path d='M6 21l6 -5l6 5' />
+      <path d='M12 13v8' />
+      <path d='M3.294 13.678l.166 .281c.52 .88 1.624 1.265 2.605 .91l14.242 -5.165a1.023 1.023 0 0 0 .565 -1.456l-2.62 -4.705a1.087 1.087 0 0 0 -1.447 -.42l-.056 .032l-12.694 7.618c-1.02 .613 -1.357 1.897 -.76 2.905z' />
+      <path d='M14 5l3 5.5' />
     </svg>
   );
 }
