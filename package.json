@@ -41,7 +41,7 @@
     "@babel/preset-react": "^7.9.4",
     "@commitlint/cli": "^9.1.2",
     "@commitlint/config-conventional": "^10.0.0",
-    "@tabler/icons": "^1.59.0",
+    "@tabler/icons": "^1.60.0",
     "husky": "^7.0.4",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.2",
