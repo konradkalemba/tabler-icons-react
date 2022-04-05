@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Hanger({
+export default function ChartDots2({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Hanger({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-hanger'
+      className='icon icon-tabler icon-tabler-chart-dots-2'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,13 @@ export default function Hanger({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M14.004 6a2 2 0 1 0 -4 0c.003 1.667 .67 3 2.004 4h-.008l7.971 4.428a2 2 0 0 1 1.029 1.749v.823a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-.823a2 2 0 0 1 1.029 -1.749l7.971 -4.428' />
+      <path d='M3 3v18h18' />
+      <circle cx='9' cy='15' r='2' />
+      <circle cx='13' cy='5' r='2' />
+      <circle cx='18' cy='12' r='2' />
+      <path d='M21 3l-6 1.5' />
+      <path d='M14.113 6.65l2.771 3.695' />
+      <path d='M16 12.5l-5 2' />
     </svg>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Hanger({
+export default function ArrowsRandom({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Hanger({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-hanger'
+      className='icon icon-tabler icon-tabler-arrows-random'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,14 @@ export default function Hanger({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M14.004 6a2 2 0 1 0 -4 0c.003 1.667 .67 3 2.004 4h-.008l7.971 4.428a2 2 0 0 1 1.029 1.749v.823a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-.823a2 2 0 0 1 1.029 -1.749l7.971 -4.428' />
+      <path d='M20 21.004h-4v-4' />
+      <path d='M16 21.004l5 -5' />
+      <path d='M6.5 9.504l-3.5 -2l2 -3.504' />
+      <path d='M3 7.504l6.83 -1.87' />
+      <path d='M4 16.004l4 -1l1 4' />
+      <path d='M8 15.004l-3.5 6' />
+      <path d='M21 5.004l-.5 4l-4 -.5' />
+      <path d='M20.5 9.004l-4.5 -5.5' />
     </svg>
   );
 }

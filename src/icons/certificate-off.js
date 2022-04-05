@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function BulbOff({
+export default function CertificateOff({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function BulbOff({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-bulb-off'
+      className='icon icon-tabler icon-tabler-certificate-off'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,12 @@ export default function BulbOff({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7' />
-      <path d='M11.089 7.083a5 5 0 0 1 5.826 5.84m-1.378 2.611a5.012 5.012 0 0 1 -.537 .466a3.5 3.5 0 0 0 -1 3a2 2 0 1 1 -4 0a3.5 3.5 0 0 0 -1 -3a5 5 0 0 1 -.528 -7.544' />
-      <path d='M9.7 17h4.6' />
+      <path d='M12.876 12.881a3 3 0 0 0 4.243 4.243m.588 -3.42a3.012 3.012 0 0 0 -1.437 -1.423' />
+      <path d='M13 17.5v4.5l2 -1.5l2 1.5v-4.5' />
+      <path d='M10 19h-5a2 2 0 0 1 -2 -2v-10c0 -1.1 .9 -2 2 -2m4 0h10a2 2 0 0 1 2 2v10' />
+      <path d='M6 9h3m4 0h5' />
+      <path d='M6 12h3' />
+      <path d='M6 15h2' />
       <path d='M3 3l18 18' />
     </svg>
   );

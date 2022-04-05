@@ -20,8 +20,8 @@ export default function Plug({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M10 6l8 8l-2 2a5.657 5.657 0 1 1 -8 -8l2 -2z' />
-      <path d='M4 20l4 -4' />
+      <path d='M9.785 6l8.215 8.215l-2.054 2.054a5.81 5.81 0 1 1 -8.215 -8.215l2.054 -2.054z' />
+      <path d='M4 20l3.5 -3.5' />
       <path d='M15 4l-3.5 3.5' />
       <path d='M20 9l-3.5 3.5' />
     </svg>

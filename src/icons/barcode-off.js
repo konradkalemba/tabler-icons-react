@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function BulbOff({
+export default function BarcodeOff({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function BulbOff({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-bulb-off'
+      className='icon icon-tabler icon-tabler-barcode-off'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,14 @@ export default function BulbOff({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7' />
-      <path d='M11.089 7.083a5 5 0 0 1 5.826 5.84m-1.378 2.611a5.012 5.012 0 0 1 -.537 .466a3.5 3.5 0 0 0 -1 3a2 2 0 1 1 -4 0a3.5 3.5 0 0 0 -1 -3a5 5 0 0 1 -.528 -7.544' />
-      <path d='M9.7 17h4.6' />
+      <path d='M4 7v-1c0 -.552 .224 -1.052 .586 -1.414' />
+      <path d='M4 17v1a2 2 0 0 0 2 2h2' />
+      <path d='M16 4h2a2 2 0 0 1 2 2v1' />
+      <path d='M16 20h2c.551 0 1.05 -.223 1.412 -.584' />
+      <path d='M5 11h1v2h-1z' />
+      <path d='M10 11v2' />
+      <path d='M15 11v.01' />
+      <path d='M19 11v2' />
       <path d='M3 3l18 18' />
     </svg>
   );

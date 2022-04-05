@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Hanger({
+export default function CeOff({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Hanger({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-hanger'
+      className='icon icon-tabler icon-tabler-ce-off'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,12 @@ export default function Hanger({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M14.004 6a2 2 0 1 0 -4 0c.003 1.667 .67 3 2.004 4h-.008l7.971 4.428a2 2 0 0 1 1.029 1.749v.823a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-.823a2 2 0 0 1 1.029 -1.749l7.971 -4.428' />
+      <path d='M11 4a7.99 7.99 0 0 0 -2.581 .426' />
+      <path d='M5.867 5.864a8 8 0 0 0 5.133 14.136' />
+      <path d='M20 4a8.001 8.001 0 0 0 -7.29 4.7' />
+      <path d='M12 12a8 8 0 0 0 8 8' />
+      <path d='M16 12h4' />
+      <path d='M3 3l18 18' />
     </svg>
   );
 }

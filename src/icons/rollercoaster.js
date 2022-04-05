@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Hanger({
+export default function Rollercoaster({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Hanger({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-hanger'
+      className='icon icon-tabler icon-tabler-rollercoaster'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,13 @@ export default function Hanger({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M14.004 6a2 2 0 1 0 -4 0c.003 1.667 .67 3 2.004 4h-.008l7.971 4.428a2 2 0 0 1 1.029 1.749v.823a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-.823a2 2 0 0 1 1.029 -1.749l7.971 -4.428' />
+      <path d='M3 21a5.55 5.55 0 0 0 5.265 -3.795l.735 -2.205a8.775 8.775 0 0 1 8.325 -6h3.675' />
+      <path d='M20 9v12' />
+      <path d='M8 21v-3' />
+      <path d='M12 21v-10' />
+      <path d='M16 9.5v11.5' />
+      <path d='M15 3h5v3h-5z' />
+      <path d='M6 8l4 -3l2 2.5l-4 3l-1.8 -.5z' />
     </svg>
   );
 }

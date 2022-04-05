@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Hanger({
+export default function CarOff({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Hanger({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-hanger'
+      className='icon icon-tabler icon-tabler-car-off'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,10 @@ export default function Hanger({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M14.004 6a2 2 0 1 0 -4 0c.003 1.667 .67 3 2.004 4h-.008l7.971 4.428a2 2 0 0 1 1.029 1.749v.823a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-.823a2 2 0 0 1 1.029 -1.749l7.971 -4.428' />
+      <circle cx='7' cy='17' r='2' />
+      <path d='M15.584 15.588a2 2 0 0 0 2.828 2.83' />
+      <path d='M5 17h-2v-6l2 -5h1m4 0h4l4 5h1a2 2 0 0 1 2 2v4m-6 0h-6m-6 -6h8m4 0h3m-6 -3v-2' />
+      <path d='M3 3l18 18' />
     </svg>
   );
 }

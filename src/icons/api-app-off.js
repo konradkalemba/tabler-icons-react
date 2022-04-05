@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Hanger({
+export default function ApiAppOff({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Hanger({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-hanger'
+      className='icon icon-tabler icon-tabler-api-app-off'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,11 @@ export default function Hanger({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M14.004 6a2 2 0 1 0 -4 0c.003 1.667 .67 3 2.004 4h-.008l7.971 4.428a2 2 0 0 1 1.029 1.749v.823a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-.823a2 2 0 0 1 1.029 -1.749l7.971 -4.428' />
+      <path d='M12 15h-6.5a2.5 2.5 0 1 1 0 -5h.5' />
+      <path d='M15 15v3.5a2.5 2.5 0 1 1 -5 0v-.5' />
+      <path d='M13 9h5.5a2.5 2.5 0 1 1 0 5h-.5' />
+      <path d='M9 12v-3m.042 -3.957a2.5 2.5 0 0 1 4.958 .457v.5' />
+      <path d='M3 3l18 18' />
     </svg>
   );
 }
