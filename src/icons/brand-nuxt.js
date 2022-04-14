@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function AntennaBarsOff({
+export default function BrandNuxt({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function AntennaBarsOff({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-antenna-bars-off'
+      className='icon icon-tabler icon-tabler-brand-nuxt'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,12 +20,8 @@ export default function AntennaBarsOff({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M6 18v-3' />
-      <path d='M10 18v-6' />
-      <path d='M14 18v-4' />
-      <path d='M14 10v-1' />
-      <path d='M18 14v-8' />
-      <path d='M3 3l18 18' />
+      <path d='M12.146 8.583l-1.3 -2.09a1.046 1.046 0 0 0 -1.786 .017l-5.91 9.908a1.046 1.046 0 0 0 .897 1.582h3.913' />
+      <path d='M20.043 18c.743 0 1.201 -.843 .82 -1.505l-4.044 -7.013a0.936 .936 0 0 0 -1.638 0l-4.043 7.013c-.382 .662 .076 1.505 .819 1.505h8.086z' />
     </svg>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function AntennaBarsOff({
+export default function GenderEpicene({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function AntennaBarsOff({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-antenna-bars-off'
+      className='icon icon-tabler icon-tabler-gender-epicene'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,12 +20,10 @@ export default function AntennaBarsOff({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M6 18v-3' />
-      <path d='M10 18v-6' />
-      <path d='M14 18v-4' />
-      <path d='M14 10v-1' />
-      <path d='M18 14v-8' />
-      <path d='M3 3l18 18' />
+      <circle transform='rotate(-45 12 12)' cx='12' cy='12' r='5' />
+      <path d='M15.536 15.535l5.464 -5.535' />
+      <path d='M3 14l5.464 -5.535' />
+      <path d='M12 12h.01' />
     </svg>
   );
 }

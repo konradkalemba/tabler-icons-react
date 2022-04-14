@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function AntennaBarsOff({
+export default function GenderGenderqueer({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function AntennaBarsOff({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-antenna-bars-off'
+      className='icon icon-tabler icon-tabler-gender-genderqueer'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,12 +20,10 @@ export default function AntennaBarsOff({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M6 18v-3' />
-      <path d='M10 18v-6' />
-      <path d='M14 18v-4' />
-      <path d='M14 10v-1' />
-      <path d='M18 14v-8' />
-      <path d='M3 3l18 18' />
+      <circle transform='matrix(1 0 0 -1 0 32)' cx='12' cy='16' r='5' />
+      <path d='M12 11v-8' />
+      <path d='M14.5 4.5l-5 3' />
+      <path d='M9.5 4.5l5 3' />
     </svg>
   );
 }
