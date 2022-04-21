@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function VectorBeizer2({
+export default function VectorBezier2({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function VectorBeizer2({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-vector-beizer-2'
+      className='icon icon-tabler icon-tabler-vector-bezier-2'
       width={size}
       height={size}
       viewBox='0 0 24 24'
