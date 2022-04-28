@@ -76,7 +76,8 @@ async function generateNewComponents() {
     let source = getComponentTemplate()
       .replace(/%%COMPONENT_NAME%%/g, componentName)
       .replace(/%%ORIGINAL_NAME%%/g, originalName)
-      .replace(/%%SVG_CONTENT%%/g, svgContent);
+      .replace(/%%SVG_CONTENT%%/g, svgContent)
+      .replace(/<desc\>(.*?)<\/desc>/g, '');
 
     fs.writeFileSync(
       path.resolve(DESTINATION_ICONS_PATH, `${originalName}.js`),
