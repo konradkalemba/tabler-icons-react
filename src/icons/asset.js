@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ThreeDRotate({
+export default function Asset({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function ThreeDRotate({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-3d-rotate'
+      className='icon icon-tabler icon-tabler-asset'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,11 +20,12 @@ export default function ThreeDRotate({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M7 15.5l4 -2.5' />
-      <path d='M3 13l4 2.5v4.996l4 -2.496v-5l-4 -2.5z' />
-      <path d='M3 13v5l4 2.5' />
-      <path d='M11 4a7 7 0 0 1 7 7v4l-3 -3' />
-      <path d='M21 12l-3 3' />
+      <circle cx='9' cy='15' r='6' />
+      <circle cx='9' cy='15' r='2' />
+      <circle cx='19' cy='5' r='2' />
+      <path d='M14.218 17.975l6.619 -12.174' />
+      <path d='M6.079 9.756l12.217 -6.631' />
+      <circle cx='9' cy='15' r='2' />
     </svg>
   );
 }

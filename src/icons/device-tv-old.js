@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ThreeDRotate({
+export default function DeviceTvOld({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function ThreeDRotate({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-3d-rotate'
+      className='icon icon-tabler icon-tabler-device-tv-old'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,11 +20,11 @@ export default function ThreeDRotate({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M7 15.5l4 -2.5' />
-      <path d='M3 13l4 2.5v4.996l4 -2.496v-5l-4 -2.5z' />
-      <path d='M3 13v5l4 2.5' />
-      <path d='M11 4a7 7 0 0 1 7 7v4l-3 -3' />
-      <path d='M21 12l-3 3' />
+      <rect x='3' y='7' width='18' height='13' rx='2' />
+      <path d='M16 3l-4 4l-4 -4' />
+      <path d='M15 7v13' />
+      <path d='M18 15v.01' />
+      <path d='M18 12v.01' />
     </svg>
   );
 }

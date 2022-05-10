@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ThreeDRotate({
+export default function ZoomInArea({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function ThreeDRotate({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-3d-rotate'
+      className='icon icon-tabler icon-tabler-zoom-in-area'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,11 +20,15 @@ export default function ThreeDRotate({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M7 15.5l4 -2.5' />
-      <path d='M3 13l4 2.5v4.996l4 -2.496v-5l-4 -2.5z' />
-      <path d='M3 13v5l4 2.5' />
-      <path d='M11 4a7 7 0 0 1 7 7v4l-3 -3' />
-      <path d='M21 12l-3 3' />
+      <path d='M15 13v4' />
+      <path d='M13 15h4' />
+      <circle cx='15' cy='15' r='5' />
+      <path d='M22 22l-3 -3' />
+      <path d='M6 18h-1a2 2 0 0 1 -2 -2v-1' />
+      <path d='M3 11v-1' />
+      <path d='M3 6v-1a2 2 0 0 1 2 -2h1' />
+      <path d='M10 3h1' />
+      <path d='M15 3h1a2 2 0 0 1 2 2v1' />
     </svg>
   );
 }
