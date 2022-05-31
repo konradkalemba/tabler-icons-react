@@ -1,6 +1,6 @@
 {
   "name": "tabler-icons-react",
-  "version": "1.48.0",
+  "version": "1.48.1",
   "description": "Tabler Icons for React",
   "main": "./dist/cjs/index.js",
   "module": "./dist/index.js",
