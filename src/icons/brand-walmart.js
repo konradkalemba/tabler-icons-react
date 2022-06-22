@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function BrandTidal({
+export default function BrandWalmart({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function BrandTidal({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-brand-tidal'
+      className='icon icon-tabler icon-tabler-brand-walmart'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,12 @@ export default function BrandTidal({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M5.333 6l3.334 3.25l3.333 -3.25l3.333 3.25l3.334 -3.25l3.333 3.25l-3.333 3.25l-3.334 -3.25l-3.333 3.25l3.333 3.25l-3.333 3.25l-3.333 -3.25l3.333 -3.25l-3.333 -3.25l-3.334 3.25l-3.333 -3.25z' />
+      <path d='M12 8.04v-5.04' />
+      <path d='M15.5 10l4.5 -2.5' />
+      <path d='M15.5 14l4.5 2.5' />
+      <path d='M12 15.96v5.04' />
+      <path d='M8.5 14l-4.5 2.5' />
+      <path d='M8.5 10l-4.5 -2.505' />
     </svg>
   );
 }

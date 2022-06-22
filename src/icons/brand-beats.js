@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function BrandTidal({
+export default function BrandBeats({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function BrandTidal({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-brand-tidal'
+      className='icon icon-tabler icon-tabler-brand-beats'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,7 +20,9 @@ export default function BrandTidal({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M5.333 6l3.334 3.25l3.333 -3.25l3.333 3.25l3.334 -3.25l3.333 3.25l-3.333 3.25l-3.334 -3.25l-3.333 3.25l3.333 3.25l-3.333 3.25l-3.333 -3.25l3.333 -3.25l-3.333 -3.25l-3.334 3.25l-3.333 -3.25z' />
+      <circle cx='12' cy='12' r='9' />
+      <circle cx='12.5' cy='12.5' r='3.5' />
+      <path d='M9 12v-8' />
     </svg>
   );
 }
