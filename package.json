@@ -42,7 +42,7 @@
     "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-commonjs": "^22.0.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
-    "@tabler/icons": "^1.72.0",
+    "@tabler/icons": "^1.76.0",
     "@types/react": "^18.0.9",
     "husky": "^7.0.4",
     "prettier": "^2.0.2",
