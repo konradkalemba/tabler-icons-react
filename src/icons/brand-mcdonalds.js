@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Signal4g({
+export default function BrandMcdonalds({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Signal4g({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-signal-4g'
+      className='icon icon-tabler icon-tabler-brand-mcdonalds'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,7 @@ export default function Signal4g({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M5 8v5h5' />
-      <path d='M9 8v8' />
-      <path d='M19 8h-3a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3v-4h-1' />
+      <path d='M20 20c0 -3.952 -.966 -16 -4.038 -16s-3.962 9.087 -3.962 14.756c0 -5.669 -.896 -14.756 -3.962 -14.756c-3.065 0 -4.038 12.048 -4.038 16' />
     </svg>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Signal4g({
+export default function Sunglasses({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Signal4g({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-signal-4g'
+      className='icon icon-tabler icon-tabler-sunglasses'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,13 @@ export default function Signal4g({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M5 8v5h5' />
-      <path d='M9 8v8' />
-      <path d='M19 8h-3a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3v-4h-1' />
+      <path d='M8 4h-2l-3 10' />
+      <path d='M16 4h2l3 10' />
+      <path d='M10 16h4' />
+      <path d='M21 16.5a3.5 3.5 0 0 1 -7 0v-2.5h7v2.5' />
+      <path d='M10 16.5a3.5 3.5 0 0 1 -7 0v-2.5h7v2.5' />
+      <path d='M4 14l4.5 4.5' />
+      <path d='M15 14l4.5 4.5' />
     </svg>
   );
 }

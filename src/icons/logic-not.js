@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Signal4g({
+export default function LogicNot({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Signal4g({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-signal-4g'
+      className='icon icon-tabler icon-tabler-logic-not'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,11 @@ export default function Signal4g({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M5 8v5h5' />
-      <path d='M9 8v8' />
-      <path d='M19 8h-3a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3v-4h-1' />
+      <path d='M22 12h-3' />
+      <path d='M2 9h3' />
+      <path d='M2 15h3' />
+      <path d='M5 5l10 7l-10 7z' />
+      <circle cx='17' cy='12' r='2' />
     </svg>
   );
 }

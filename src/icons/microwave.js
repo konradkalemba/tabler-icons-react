@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Signal4g({
+export default function Microwave({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Signal4g({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-signal-4g'
+      className='icon icon-tabler icon-tabler-microwave'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,13 @@ export default function Signal4g({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M5 8v5h5' />
-      <path d='M9 8v8' />
-      <path d='M19 8h-3a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3v-4h-1' />
+      <rect x='3' y='6' width='18' height='12' rx='1' />
+      <path d='M15 6v12' />
+      <path d='M18 12h.01' />
+      <path d='M18 15h.01' />
+      <path d='M18 9h.01' />
+      <path d='M6.5 10.5c1 -.667 1.5 -.667 2.5 0c.833 .347 1.667 .926 2.5 0' />
+      <path d='M6.5 13.5c1 -.667 1.5 -.667 2.5 0c.833 .347 1.667 .926 2.5 0' />
     </svg>
   );
 }

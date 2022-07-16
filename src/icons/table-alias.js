@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Signal4g({
+export default function TableAlias({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Signal4g({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-signal-4g'
+      className='icon icon-tabler icon-tabler-table-alias'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,10 @@ export default function Signal4g({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M5 8v5h5' />
-      <path d='M9 8v8' />
-      <path d='M19 8h-3a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3v-4h-1' />
+      <path d='M4 12v-6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-6' />
+      <rect x='3' y='15' width='6' height='6' rx='1' />
+      <path d='M4 10h16' />
+      <path d='M10 4v8' />
     </svg>
   );
 }

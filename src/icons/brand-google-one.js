@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Signal4g({
+export default function BrandGoogleOne({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -8,7 +8,7 @@ export default function Signal4g({
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
-      className='icon icon-tabler icon-tabler-signal-4g'
+      className='icon icon-tabler icon-tabler-brand-google-one'
       width={size}
       height={size}
       viewBox='0 0 24 24'
@@ -20,9 +20,8 @@ export default function Signal4g({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M5 8v5h5' />
-      <path d='M9 8v8' />
-      <path d='M19 8h-3a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3v-4h-1' />
+      <path d='M11 4.998v13.982a1.998 1.998 0 0 0 3.995 0v-13.982a1.998 1.998 0 1 0 -3.995 0z' />
+      <path d='M6.63 8.407a2.125 2.125 0 0 0 -.074 2.944c.77 .834 2.051 .869 2.862 .077l4.95 -4.834c.812 -.792 .846 -2.11 .076 -2.945a1.984 1.984 0 0 0 -2.861 -.077l-4.953 4.835z' />
     </svg>
   );
 }
