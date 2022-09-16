@@ -20,8 +20,8 @@ export default function Square5({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M10 16h2a2 2 0 1 0 0 -4h-2v-4h4' />
       <rect x='4' y='4' width='16' height='16' rx='2' />
+      <path d='M10 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4' />
     </svg>
   );
 }

@@ -20,8 +20,9 @@ export default function Square4({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M13 16v-8l-4 6h5' />
       <rect x='4' y='4' width='16' height='16' rx='2' />
+      <path d='M10 8v3a1 1 0 0 0 1 1h3' />
+      <path d='M14 8v8' />
     </svg>
   );
 }
