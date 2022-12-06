@@ -41,6 +41,9 @@ function createComponentName(originalName) {
       .replace('2fa', 'TwoFA')
       .replace('3dCubeSphere', 'ThreeDCubeSphere')
       .replace('3dRotate', 'ThreeDRotate')
+      .replace('123', 'OneTwoThree')
+      .replace('24Hours', 'TwentyFourHours')
+      .replace('360', 'ThreeSixty')
   );
 }
 
