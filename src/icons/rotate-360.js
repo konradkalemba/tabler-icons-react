@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Rotate360({
+export default function RotateThreeSixty({
   size = 24,
   color = 'currentColor',
   ...restProps

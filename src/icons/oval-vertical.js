@@ -20,13 +20,7 @@ export default function OvalVertical({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <ellipse
-        transform='matrix(0 -1 -1 0 24 24)'
-        cx='12'
-        cy='12'
-        rx='6'
-        ry='9'
-      />
+      <path d='M3 12c0 -3.314 4.03 -6 9 -6s9 2.686 9 6s-4.03 6 -9 6s-9 -2.686 -9 -6z' />
     </svg>
   );
 }

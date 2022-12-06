@@ -20,8 +20,8 @@ export default function Divide({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <circle fill='currentColor' cx='12' cy='6' r='1' />
-      <circle fill='currentColor' cx='12' cy='18' r='1' />
+      <circle cx='12' cy='6' r='1' fill='currentColor' />
+      <circle cx='12' cy='18' r='1' fill='currentColor' />
       <line x1='5' y1='12' x2='19' y2='12' />
     </svg>
   );

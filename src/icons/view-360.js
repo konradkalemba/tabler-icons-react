@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function View360({
+export default function ViewThreeSixty({
   size = 24,
   color = 'currentColor',
   ...restProps
@@ -22,7 +22,7 @@ export default function View360({
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <circle cx='12' cy='12' r='9' />
       <ellipse cx='12' cy='12' rx='4' ry='9' />
-      <ellipse cx='12' cy='12' rx='4' ry='9' transform='rotate(90 12 12)' />
+      <path d='M3 12c0 2.21 4.03 4 9 4s9 -1.79 9 -4s-4.03 -4 -9 -4s-9 1.79 -9 4z' />
     </svg>
   );
 }

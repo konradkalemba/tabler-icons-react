@@ -21,8 +21,7 @@ export default function SquareX({
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <rect x='4' y='4' width='16' height='16' rx='2' />
-      <path d='M10 8l4 8' />
-      <path d='M10 16l4 -8' />
+      <path d='M10 10l4 4m0 -4l-4 4' />
     </svg>
   );
 }

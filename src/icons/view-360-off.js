@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function View360Off({
+export default function ViewThreeSixtyOff({
   size = 24,
   color = 'currentColor',
   ...restProps

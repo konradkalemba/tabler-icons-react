@@ -20,7 +20,7 @@ export default function CaretUp({
       {...restProps}
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M18 15l-6 -6l-6 6h12' />
+      <path d='M18 14l-6 -6l-6 6h12' />
     </svg>
   );
 }
