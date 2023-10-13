@@ -1,3 +1,6 @@
+> [!WARNING]  
+> This package is no longer maintained as there is now an official React components package for Tabler Icons – [@tabler/icons-react](https://tabler.io/docs/icons/react).
+
 # tabler-icons-react
 
 [![npm version](https://img.shields.io/npm/v/tabler-icons-react.svg)](https://www.npmjs.com/package/tabler-icons-react)
